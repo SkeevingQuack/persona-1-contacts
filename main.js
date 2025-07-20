@@ -230,19 +230,29 @@ function toggleReiji() {
 }
 buttonReiji.addEventListener("click", toggleReiji);
 
+/* Filter function?
 function compareContacts(personality, gender, query) {
 	let personalityMatch = JSON.stringify(query['personality']) == JSON.stringify(personality);
 	let genderMatch = query['gender'] == gender || query['gender'] == "IRRELEVANT";
 	return personalityMatch && genderMatch;
 }
+*/
 
 function updateResults() {
 	let contacts = blob['personalities'];
-	contacts = contacts.filter((contact) => compareContacts(personality, currentGender, contact));
+	let result;
+
+	for (contact in contacts) {
+		let personalityMatch = JSON.stringify(query['personality']) == JSON.stringify(personality);
+		let genderMatch = query['gender'] == gender || query['gender'] == "IRRELEVANT";
+		if (personalityMatch && genderMatch) {
+			result = contact;
+			break;
+		}
+	}
 	
-	let demons = contacts['demons'];
-	console.log(demons);
-	let emotions = contacts['emotions'];
+	let demons = contact['demons'];
+	let emotions = contact['emotions'];
 
 	demonList.innerText = demons.join(", ");
 }
