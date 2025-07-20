@@ -244,7 +244,7 @@ function updateResults() {
 
 	for (contact in contacts) {
 		let personalityMatch = JSON.stringify(contact['personality']) == JSON.stringify(personality);
-		let genderMatch = contact['gender'] == gender || contact['gender'] == "IRRELEVANT";
+		let genderMatch = contact['gender'] == currentGender || contact['gender'] == "IRRELEVANT";
 		if (personalityMatch && genderMatch) {
 			result = contact;
 			break;
