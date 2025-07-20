@@ -232,7 +232,7 @@ buttonReiji.addEventListener("click", toggleReiji);
 
 function compareContacts(personality, gender, query) {
 	let personalityMatch = JSON.stringify(query['personality']) == JSON.stringify(personality);
-	let genderMatch = query['gender'] == gender || query['gender' == "IRRELEVANT";
+	let genderMatch = query['gender'] == gender || query['gender'] == "IRRELEVANT";
 	return personalityMatch && genderMatch;
 }
 
