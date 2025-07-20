@@ -36,10 +36,22 @@ button {
 	flex-wrap: wrap;
 }
 
-.happy {color: hsl(50, 80%, 70%);}
-.eager {color: hsl(30, 80%, 70%);}
-.angry {color: hsl(0, 80%, 70%);}
-.scared {color: hsl(230, 80%, 70%);}
+.happy {
+	background-color: hsl(50, 80%, 70%);
+	color: black;
+}
+.eager {
+	background-color: hsl(30, 80%, 70%);
+	color: black;
+}
+.angry {
+	background-color: hsl(0, 86%, 68%);
+	color: black;
+}
+.scared {
+	background-color: hsl(230, 80%, 70%);
+	color: black;
+}
 .nothing {color: hsl(0, 10%, 60%, 0.8);}
 
 .activeButton {background-color: hsl(130, 78%, 70%);}
