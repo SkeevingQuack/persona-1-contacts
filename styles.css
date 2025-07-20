@@ -5,19 +5,22 @@ html {
 }
 
 body {
-	margin: 2rem;
+	margin: 1rem;
 }
 
 button {
 	font-size: 1rem;
 	margin-bottom: 0.5rem;
 
-	width: 2.5rem;
-	height: 6rem;
+	width: 30%;
+	height: 2.5rem;
 }
 
 .partyPicker {
 	margin-bottom: 1rem;
+
+	display: flex;
+	align-items: center;
 }
 
 .traitPicker {

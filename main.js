@@ -7,18 +7,21 @@ const buttonForceful = document.querySelector(".buttonForceful");
 const buttonSnappish = document.querySelector(".buttonSnappish");
 const buttonHaughty = document.querySelector(".buttonHaughty");
 
+//function toggleWise()
+//buttonWise.addEventListener("click", toggleWise);
+
 const buttonGender = document.querySelector(".buttonGender");
 const currentGender = "FEMALE";
 
 function changeGender() {
 	if (currentGender === "FEMALE") {
 		currentGender = "MALE";
-		buttonGender.innerText = ♂;
+		buttonGender.innerText = "♂";
 	} else {
 		currentGender = "FEMALE";
-		buttonGender.innerText = ♀;
+		buttonGender.innerText = "♀";
 	}
-	updateTraits();
+	//updateTraits();
 }
 
 
