@@ -112,6 +112,11 @@ function updateMembers() {
 	} else {
 		buttonReiji.disabled = false;
 	}
+
+	while (positionCounter < 5) {
+		memberList[positionCounter].innerHTML = '<th></th><td></td><td></td><td></td><td></td>';
+		positionCounter += 1;
+	}
 }
 
 function toggleNanjo() {
@@ -218,3 +223,5 @@ function toggleReiji() {
 	updateMembers()
 }
 buttonReiji.addEventListener("click", toggleReiji);	
+
+updateMembers();
