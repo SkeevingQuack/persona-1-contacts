@@ -299,20 +299,21 @@ function updateResults() {
 			let key = character + '>' + node.innerText;
 
 			switch(emotions[key]) {
+				// can use .remove() and .add() if necessary
 				case undefined: 
-					node.classList.add('nothing'); 
+					node.classList = 'nothing'; 
 					break;
 				case 'Angry':
-					node.classList.add('angry'); 
+					node.classList = 'angry'; 
 					break;
 				case 'Happy':
-					node.classList.add('happy'); 
+					node.classList = 'happy'; 
 					break;
 				case 'Eager':
-					node.classList.add('eager');
+					node.classList = 'eager';
 					break;
 				case 'Scared':
-					node.classList.add('scared');
+					node.classList = 'scared';
 					break;
 				}
 			}
