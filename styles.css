@@ -49,7 +49,12 @@ th,
 td {
 	border: 1px solid hsl(0, 0%, 30%);
 	padding: 0.5rem;
+}
 
+td {
+	font-size: 0.7rem;
+}
+th {
 	font-size: 0.8rem;
 }
 
