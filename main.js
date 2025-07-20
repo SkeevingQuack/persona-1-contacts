@@ -91,7 +91,8 @@ function updateResults() {
 
 	for (index in contacts) {
 		let contact = contacts[index];
-		let personalityMatch = JSON.stringify(contact['personality']) == JSON.stringify(personality);
+		// TODO: find out if .sort() guarantees the same results
+		let personalityMatch = JSON.stringify(contact['personality'].sort()) == JSON.stringify(personality.sort());
 		let genderMatch = contact['gender'] == currentGender || contact['gender'] == "IRRELEVANT";
 		if (personalityMatch && genderMatch) {
 			result = contact;
