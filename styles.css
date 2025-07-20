@@ -60,3 +60,8 @@ tbody > tr {
 tbody > tr:nth-of-type(even) {
 	background-color: hsl(282, 42%, 30%);
 }
+
+.demonList {
+	height: 3em;
+	font-weight: bold;
+}

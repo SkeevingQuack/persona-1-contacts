@@ -230,7 +230,13 @@ function toggleReiji() {
 buttonReiji.addEventListener("click", toggleReiji);
 
 
-function updateResults() {console.log("updateResults todo")}
+
+function updateResults() {
+	let contacts = blob['personalities'];
+
+	contacts.filter((contact) => 
+		JSON.stringify(contact['personality']) == JSON.stringify(personality))
+}
 
 function toggleGender() {
 	if (currentGender === "FEMALE") {
