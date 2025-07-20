@@ -1,0 +1,138 @@
+Culebre—Happy: N/A—Eager: Taunt (MC), Pontificate
+Cockatrice—Happy: Persuade, Sing (MC), Sarcasm, Flatter—Eager: Bribe, Ignore, Lie
+Nue—Happy: Persuade, Sing (MC), Sarcasm, Flatter—Eager: Bribe, Ignore, Lie
+Ocelot—Happy: Persuade, Sing (MC), Sarcasm, Flatter—Eager: Bribe, Ignore, Lie
+Yomotsu Shikome—Happy: Sing (MC), Bribe, Sarcasm, Stare, Brag, Soothe, Joke, Seduce, Persuade (Yukino), Yell—Eager: Abuse, Lie, Ignore
+Cath Paluc—Happy: Sing (MC), Bribe, Sarcasm, Stare, Brag, Soothe, Joke, Seduce, Persuade (Yukino), Yell—Eager: Abuse, Lie, Ignore
+Purski—Happy: Sing (MC), Dance, Chat, Scold, Prestidigitate—Eager: Invite, Taunt
+Titania—Happy: Sing (MC), Dance, Brag—Eager: Invite
+Zombie Nurse—Happy: Stare, Bully, Lie—Eager: Sarcasm
+Picollus—Happy: N/A—Eager: Persuade (MC)
+Kwancha—Happy: N/A—Eager: Persuade (MC)
+Genkurou—Happy: Plead, Lie, Cringe—Eager: Dance
+Selket—Happy: Sarcasm, Flatter, Prestidigitate—Eager: Stare
+Anatomy—Happy: Sing, Pontificate, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Pontificate, Abuse, Plead
+Virtue—Happy: Sing, Pontificate, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Pontificate, Abuse, Plead
+Rakshasa—Happy: Sarcasm, Prestidigitate—Eager: Taunt (MC), Persuade (Yukino)
+Malphas—Happy: N/A—Eager: Persuade (MC), Taunt (Mark), Soothe
+Tokebi—Happy: Soothe, Bully, Persuade (Yukino), Plead—Eager: Pontificate, Stare, Sing (Elly), Pickup
+Eligor—Happy: Persuade (MC), Pontificate, Sing (Elly)—Eager: Persuade (MC), Stare
+Ouroboros—Happy: Persuade (MC), Pontificate, Sing (Elly)—Eager: Persuade (MC), Stare
+Ocypete—Happy: Pontificate, Sarcasm, Dance, Stare, Brag, Prestidigitate—Eager: Taunt (MC; Mark), Stare, Brag, Chat, Cringe
+Celaeno—Happy: Pontificate, Sarcasm, Dance, Stare, Brag, Prestidigitate—Eager: Taunt (MC; Mark), Stare, Brag, Chat, Cringe
+Aello—Happy: Pontificate, Sarcasm, Dance, Stare, Brag, Prestidigitate—Eager: Taunt (MC; Mark), Stare, Brag, Chat, Cringe
+Jack Frost—Happy: Persuade (MC), Sing, Dance, Stare, Soothe, Cringe—Eager: Invite (MC), Lie
+Fuji Musume—Happy: Persuade (MC; Yukino), Sing (MC), Lie, Cringe, Prestidigitate—Eager: Invite (MC), Ignore (Reiji)
+Rusalka—Happy: Persuade (MC; Yukino), Sing (MC), Lie, Cringe, Prestidigitate—Eager: Invite (MC), Ignore (Reiji)
+Nekomata—Happy: Persuade (MC; Yukino), Sing (MC), Lie, Cringe, Prestidigitate—Eager: Invite (MC), Ignore (Reiji)
+Slime—Happy: Sing (MC), Stare, Soothe, Invite (Elly), Pickup, Seduce, Bully—Eager: Invite (MC), Bribe, Cry
+Zombie Girl—Happy: Sing, Dance, Seduce, Persuade (Yukino), Yell—Eager: Threaten, Ignore (Yukino; Reiji)
+Mr. Zombie—Happy: Persuade (MC; Yukino), Sing (MC), Brag, Bribe, Sarcasm, Invite (Elly), Seduce—Eager: Dance, Sing (Elly), Threaten, Ignore
+Zombie Boy—Happy: Persuade (MC; Yukino), Sing (MC), Brag, Bribe, Sarcasm, Invite (Elly), Seduce—Eager: Dance, Sing (Elly), Threaten, Ignore
+Ghost—Happy: Persuade (MC; Yukino), Sing (MC), Brag, Bribe, Sarcasm, Invite (Elly), Seduce—Eager: Dance, Sing (Elly), Threaten, Ignore
+Agathion—Happy: Persuade (MC; Yukino), Sing (MC), Brag, Bribe, Sarcasm, Invite (Elly), Seduce—Eager: Dance, Sing (Elly), Threaten, Ignore
+Nacht Kobold—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Hoodlum—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Afanc—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Ogre—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Phunbaba—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Zap—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Mizuchi—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Mushus—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Hecatoncheires—Happy: Persuade (MC; Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Yell, Flatter—Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+Cu Sith—Happy: Lie, Cringe, Yell, Prestidigitate—Eager: Persuade (MC), Invite (MC), Startle
+Nisroc—Happy: Lie, Cringe, Yell, Prestidigitate—Eager: Persuade (MC), Invite (MC), Startle
+Teketeke—Happy: Lie, Cringe, Yell, Prestidigitate—Eager: Persuade (MC), Invite (MC), Startle
+Yaksini—Happy: Sing (MC), Pickup—Eager: Persuade (MC), Invite (MC), Chat, Startle
+Dakini—Happy: Sing (MC), Pickup—Eager: Persuade (MC), Invite (MC), Chat, Startle
+Knocker—Happy: Invite (Elly), Persuade (Yukino)—Eager: Sing (Elly), Brag
+Pixie—Happy: Sing (MC), Dance, Bribe, Persuade (Yukino), Prestidigitate—Eager: Brag, Condescend, Abuse, Plead
+Succubus—Happy: Sing (MC), Dance, Bribe, Persuade (Yukino), Prestidigitate—Eager: Brag, Condescend, Abuse, Plead
+Gandharva—Happy: Bribe, Pontificate, Dance, Seduce, Horrify, Sing (Elly), Prestidigitate—Eager: Persuade (MC), Invite (Elly), Taunt (Mark), Stare, Brag, Abuse
+Cupid—Happy: Bribe, Pontificate, Dance, Seduce, Horrify, Sing (Elly), Prestidigitate—Eager: Persuade (MC), Invite (Elly), Taunt (Mark), Stare, Brag, Abuse
+Otohime—Happy: Sing (MC), Dance, Pickup—Eager: Taunt (Mark), Stare
+Paimon—Happy: Sing (MC), Dance, Pickup—Eager: Taunt (Mark), Stare
+Yato no Kami—Happy: Bully, Flatter—Eager: Persuade (MC), Taunt (MC), Stare, Joke, Cry, Threaten (Ayase; Reiji), Cringe
+Haokah—Happy: Bully, Flatter—Eager: Persuade (MC), Taunt (MC), Stare, Joke, Cry, Threaten (Ayase; Reiji), Cringe
+Incubus—Happy: Bully, Flatter—Eager: Persuade (MC), Taunt (MC), Stare, Joke, Cry, Threaten (Ayase; Reiji), Cringe
+Megaera—Happy: Pickup, Bully—Eager: Cringe, Threaten (Ayase; Reiji)
+Tisiphone—Happy: Pickup, Bully—Eager: Cringe, Threaten (Ayase; Reiji)
+Alecto—Happy: Pickup, Bully—Eager: Cringe, Threaten (Ayase; Reiji)
+Tlazolteotl—Happy: Pickup, Bully—Eager: Cringe, Threaten (Ayase; Reiji)
+Preta—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Ihika—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Ba—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Leprechaun—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Yaka—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Vetala—Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate—Eager: Dance, Sarcasm, Cry
+Quicksilver—Happy: Bribe, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Prestidigitate
+Moh Shuvuu—Happy: Bribe, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Prestidigitate
+Iwate—Happy: Bribe, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Prestidigitate
+Scylla—Happy: Bribe, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Prestidigitate
+Kokkuri—Happy: Pickup, Prestidigitate, Cringe—Eager: Condescend, Sarcasm, Brag, Invite (Elly), Cry
+Alastor—Happy: Pickup, Prestidigitate, Cringe—Eager: Condescend, Sarcasm, Brag, Invite (Elly), Cry
+Hresvelgr—Happy: Pickup, Prestidigitate, Cringe—Eager: Condescend, Sarcasm, Brag, Invite (Elly), Cry
+Hannya—Happy: Bribe, Brag, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Sing (Elly)
+Arachne—Happy: Bribe, Brag, Pickup, Horrify, Yell, Prestidigitate—Eager: Sarcasm, Sing (Elly)
+Zombie Painter—Happy: Stare, Prestidigitate—Eager: Taunt (MC), Stare
+Hi no Enma—Happy: Sarcasm, Horrify, Flatter, Yell, Prestidigitate—Eager: Taunt (MC), Sarcasm, Stare
+Sumizome—Happy: Sarcasm, Horrify, Flatter, Yell, Prestidigitate—Eager: Taunt (MC), Sarcasm, Stare
+Zombie Cop—Happy: Persuade (MC), Horrify, Invite (Elly), Bully, Flatter, Yell—Eager: Persuade (MC), Plead
+Power—Happy: Persuade (MC), Horrify, Invite (Elly), Bully, Flatter, Yell—Eager: Persuade (MC), Plead
+Gdon—Happy: Persuade (MC), Horrify, Invite (Elly), Bully, Flatter, Yell—Eager: Persuade (MC), Plead
+Lilim—Happy: Flatter, Yell, Prestidigitate—Eager: Plead, Cringe
+Yakuza—Happy: Horrify, Sing (MC; Elly), Soothe, Invite (Elly), Flatter—Eager: Invite (MC), Stare, Threaten (Ayase)
+Dribbler—Happy: Horrify, Sing (MC; Elly), Soothe, Invite (Elly), Flatter—Eager: Invite (MC), Stare, Threaten (Ayase)
+Archangel—Happy: Horrify, Sing (MC; Elly), Soothe, Invite (Elly), Flatter—Eager: Invite (MC), Stare, Threaten (Ayase)
+Yaksa—Happy: Horrify, Sing (MC; Elly), Soothe, Invite (Elly), Flatter—Eager: Invite (MC), Stare, Threaten (Ayase)
+Rukh—Happy: Horrify, Sing (MC; Elly), Soothe, Invite (Elly), Flatter—Eager: Invite (MC), Stare, Threaten (Ayase)
+Salome—Happy: Sing (MC), Pontificate, Brag, Pickup, Joke—Eager: Stare, Seduce, Threaten (Ayase)
+Toufei—Happy: Bribe—Eager: Sarcasm, Dance, Plead
+Polisun—Happy: Sing (MC)—Eager: Persuade (MC), Brag
+Jinn—Happy: Sing (MC)—Eager: Persuade (MC), Brag
+Barbatos—Happy: Sing (MC)—Eager: Persuade (MC), Brag
+Berith—Happy: Pontificate, Dance—Eager: Condescend, Sarcasm
+Fafnir—Happy: Pontificate, Dance—Eager: Condescend, Sarcasm
+Dark Elf—Happy: Horrify—Eager: Sarcasm, Chat, Persuade (Yukino)
+Black Widow—Happy: Cringe, Prestidigitate—Eager: Stare
+Druj—Happy: Cringe, Prestidigitate—Eager: Stare
+Principality—Happy: Pontificate, Stare, Sing (Elly), Soothe, Prestidigitate—Eager: Persuade (MC), Stare, Soothe, Threaten (Reiji)
+Naga—Happy: Pontificate, Stare, Sing (Elly), Soothe, Prestidigitate—Eager: Persuade (MC), Stare, Soothe, Threaten (Reiji)
+Dominion—Happy: Pontificate, Stare, Sing (Elly), Soothe, Prestidigitate—Eager: Persuade (MC), Stare, Soothe, Threaten (Reiji)
+Xiuhtecuhtli—Happy: Pontificate, Stare, Sing (Elly), Soothe, Prestidigitate—Eager: Persuade (MC), Stare, Soothe, Threaten (Reiji)
+Sarashina-hime—Happy: Pontificate, Sarcasm—Eager: Stare, Threaten (Reiji; Ayase)
+Rangda—Happy: Pontificate, Sarcasm—Eager: Stare, Threaten (Reiji; Ayase)
+Throne—Happy: Pontificate, Sarcasm—Eager: Stare, Threaten (Reiji; Ayase)
+Girimehkala—Happy: Prestidigitate—Eager: Condescend
+Pairika—Happy: Prestidigitate, Sing (MC)—Eager: Plead, Chat, Sing (Elly), Persuade (Yukino)
+Pyro Jack—Happy: Persuade (MC), Flatter, Cringe—Eager: Invite (MC), Lie
+Ukobach—Happy: Persuade (MC; Yukino), Bribe, Dance, Brag, Seduce, Cringe, Prestidigitate—Eager: Sing (Elly), Cry, Lie, Threaten (Reiji)
+Angel—Happy: Persuade (MC; Yukino), Bribe, Dance, Brag, Seduce, Cringe, Prestidigitate—Eager: Sing (Elly), Cry, Lie, Threaten (Reiji)
+Hanako—Happy: Persuade (MC), Sing (MC), Bribe, Pickup, Joke, Lie, Cringe, Prestidigitate—Eager: Startle, Ignore (Reiji)
+Nightmare—Happy: Sing (MC), Sarcasm, Invite (Elly), Pickup, Seduce, Bully—Eager: Cry, Ignore (Yukino), Lie, Threaten (Reiji)
+Enku—Happy: Sing (MC), Sarcasm, Invite (Elly), Pickup, Seduce, Bully—Eager: Cry, Ignore (Yukino), Lie, Threaten (Reiji)
+Catoblepas—Happy: Sing (MC), Sarcasm, Invite (Elly), Pickup, Seduce, Bully—Eager: Cry, Ignore (Yukino), Lie, Threaten (Reiji)
+Bukimi—Happy: Sing (MC), Bribe, Sarcasm, Dance, Stare, Pickup, Chat, Seduce, Bully, Lie, Yell, Prestidigitate—Eager: Sarcasm, Ignore (Reiji)
+Poltergeist—Happy: Brag, Bribe, Sarcasm, Pickup, Soothe, Invite (Elly), Seduce, Persuade (Yukino)—Eager: Bribe, Condescend, Invite (Elly)
+Nozuchi—Happy: Brag, Bribe, Sarcasm, Pickup, Soothe, Invite (Elly), Seduce, Persuade (Yukino)—Eager: Bribe, Condescend, Invite (Elly)
+Orthrus—Happy: Persuade (MC), Sarcasm, Invite (Elly), Soothe, Seduce, Flatter, Cringe, Yell—Eager: Taunt (MC), Pickup, Invite (Elly), Abuse
+Ubelluris—Happy: Persuade (MC), Sarcasm, Invite (Elly), Soothe, Seduce, Flatter, Cringe, Yell—Eager: Taunt (MC), Pickup, Invite (Elly), Abuse
+Siren—Happy: Sing (MC), Pickup, Joke, Soothe—Eager: Stare, Brag, Seduce
+Kobold—Happy: Bribe, Stare, Persuade (Yukino)—Eager: Sarcasm, Stare, Abuse, Cry
+Carrie—Happy: Persuade (MC), Bribe, Sarcasm, Horrify, Joke, Yell, Prestidigitate—Eager: Sarcasm, Dance, Invite (Elly)
+Cromm Cruach—Happy: Prestidigitate—Eager: Plead
+Fenrir—Happy: Prestidigitate—Eager: Plead
+Cait Sith—Happy: Sing (MC; Elly), Pontificate, Soothe, Plead, Prestidigitate—Eager: Sarcasm, Stare, Brag, Invite (Elly), Ignore (Reiji), Threaten (Reiji)
+Oberon—Happy: Sing (MC; Elly), Pontificate, Soothe, Plead, Prestidigitate—Eager: Sarcasm, Stare, Brag, Invite (Elly), Ignore (Reiji), Threaten (Reiji)
+Ganesha—Happy: Sing (MC; Elly), Pontificate, Soothe, Plead, Prestidigitate—Eager: Sarcasm, Stare, Brag, Invite (Elly), Ignore (Reiji), Threaten (Reiji)
+Gremlin—Happy: Abuse—Eager: Plead
+Shadow—Happy: Sing (MC), Stare, Plead, Prestidigitate—Eager: Stare, Threaten (Ayase)
+Andramelech—Happy: Sing (MC), Stare, Plead, Prestidigitate—Eager: Stare, Threaten (Ayase)
+Duergar—Happy: N/A—Eager: Bribe, Sarcasm
+Doppleganger—Happy: Persuade (MC), Yell, Prestidigitate—Eager: Condescend, Chat, Persuade (Yukino)
+Kiyohime—Happy: Dance, Scold, Prestidigitate—Eager: Condescend, Chat, Persuade (Yukino)
+Miyasudokoro—Happy: Dance, Scold, Prestidigitate—Eager: Condescend, Chat, Persuade (Yukino)
+Tengu—Happy: Horrify, Prestidigitate—Eager: Soothe, Plead
+Wyvern—Happy: Sarcasm, Soothe, Invite (Elly), Pickup, Seduce, Cringe, Prestidigitate—Eager: Cry, Cringe
+Legion—Happy: Prestidigitate—Eager: Dance, Cry
+Kuchisake-onna—Happy: Sarcasm, Pickup, Plead, Yell, Prestidigitate—Eager: N/A

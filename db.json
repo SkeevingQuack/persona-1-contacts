@@ -1,42 +1,3184 @@
 {
-	"personality":["Wise", "Foolish", "Joyful", "Gloomy", "Timid", "Forceful", "Snappish", "Haughty"],
-	"negotiationSkills":[
-		{
-			"nickname":"Protagonist",
-			"name":"N A",
-			"skills":["Persuade", "Taunt", "Invite", "Sing"]
-		}, {
-			"nickname":"Nanjo",
-			"name":"Kei Nanjo",
-			"skills":["Bribe", "Pontificate", "Condescend", "Sarcasm"]
-		}, {
-			"nickname":"Mark",
-			"name":"Masao Inaba",
-			"skills":["Dance", "Taunt", "Stare", "Brag"]
-		}, {
-			"nickname":"Yukino",
-			"name":"Yukino Mayuzumi",
-			"skills":["Bully", "Persuade", "Scold", "Ignore"]
-		}, {
-			"nickname":"Elly",
-			"name":"Eriko Kirishima",
-			"skills":["Horrify", "Sing", "Soothe", "Invite"]
-		}, {
-			"nickname":"Maki",
-			"name":"Maki Sonomura",
-			"skills":["Plead", "Flatter", "Lie", "Cringe"]
-		}, {
-			"nickname":"Brown",
-			"name":"Hidehiko Uesugi",
-			"skills":["Pickup", "Joke", "Chat", "Startle"]
-		}, {
-			"nickname":"Ayase",
-			"name":"Yuka Ayase",
-			"skills":["Abuse", "Seduce", "Cry", "Threaten"]
-		}, {
-			"nickname":"Reiji",
-			"name":"Reiji Kido",
-			"skills":["Ignore", "Threaten", "Yell", "Prestidigitate"]
-		}],
-
+  "personalityTraits": [
+    "Wise",
+    "Foolish",
+    "Joyful",
+    "Gloomy",
+    "Timid",
+    "Forceful",
+    "Snappish",
+    "Haughty"
+  ],
+  "negotiationSkills": [
+    {
+      "nickname": "MC",
+      "name": "Protagonist",
+      "skills": [
+        "Persuade",
+        "Taunt",
+        "Invite",
+        "Sing"
+      ]
+    },
+    {
+      "nickname": "Nanjo",
+      "name": "Kei Nanjo",
+      "skills": [
+        "Bribe",
+        "Pontificate",
+        "Condescend",
+        "Sarcasm"
+      ]
+    },
+    {
+      "nickname": "Mark",
+      "name": "Masao Inaba",
+      "skills": [
+        "Dance",
+        "Taunt",
+        "Stare",
+        "Brag"
+      ]
+    },
+    {
+      "nickname": "Yukino",
+      "name": "Yukino Mayuzumi",
+      "skills": [
+        "Bully",
+        "Persuade",
+        "Scold",
+        "Ignore"
+      ]
+    },
+    {
+      "nickname": "Elly",
+      "name": "Eriko Kirishima",
+      "skills": [
+        "Horrify",
+        "Sing",
+        "Soothe",
+        "Invite"
+      ]
+    },
+    {
+      "nickname": "Maki",
+      "name": "Maki Sonomura",
+      "skills": [
+        "Plead",
+        "Flatter",
+        "Lie",
+        "Cringe"
+      ]
+    },
+    {
+      "nickname": "Brown",
+      "name": "Hidehiko Uesugi",
+      "skills": [
+        "Pickup",
+        "Joke",
+        "Chat",
+        "Startle"
+      ]
+    },
+    {
+      "nickname": "Ayase",
+      "name": "Yuka Ayase",
+      "skills": [
+        "Abuse",
+        "Seduce",
+        "Cry",
+        "Threaten"
+      ]
+    },
+    {
+      "nickname": "Reiji",
+      "name": "Reiji Kido",
+      "skills": [
+        "Ignore",
+        "Threaten",
+        "Yell",
+        "Prestidigitate"
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "personality": [
+        "Wise"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Culebre"
+      ],
+      "emotions": {
+        "happy": [],
+        "eager": [
+          "MC>Taunt",
+          "Nanjo>Pontificate"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Nanjo>Bribe",
+          "Maki>Plead",
+          "Maki>Flatter"
+        ],
+        "scared": [
+          "MC>Invite",
+          "MC>Sing",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Cockatrice",
+        "Nue",
+        "Ocelot"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Sing",
+          "Nanjo>Sarcasm",
+          "Maki>Flatter"
+        ],
+        "eager": [
+          "Nanjo>Bribe",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Lie"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Pontificate",
+          "Mark>Dance",
+          "Brown>Startle",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Maki>Cringe",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Nanjo>Condescend",
+          "Brown>Pickup",
+          "Ayase>Abuse",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Yomotsu Shikome",
+        "Cath Paluc"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Elly>Soothe",
+          "Brown>Joke",
+          "Ayase>Seduce",
+          "Yukino>Persuade",
+          "Reiji>Yell"
+        ],
+        "eager": [
+          "Ayase>Abuse",
+          "Maki>Lie",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Pontificate",
+          "Elly>Sing",
+          "Brown>Pickup",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Nanjo>Condescend",
+          "Elly>Horrify",
+          "Ayase>Abuse",
+          "Yukino>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Purski"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Dance",
+          "Brown>Chat",
+          "Yukino>Scold",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Mark>Taunt"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "Nanjo>Bribe",
+          "Mark>Stare",
+          "Elly>Invite",
+          "Yukino>Bully",
+          "Reiji>Yell",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Titania"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Dance",
+          "Mark>Brag"
+        ],
+        "eager": [
+          "MC>Invite"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Stare"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Gloomy"
+      ],
+      "gender": "IRRELEVANT",
+      "demons": [
+        "Zombie Nurse"
+      ],
+      "emotions": {
+        "happy": [
+          "Mark>Stare",
+          "Yukino>Bully",
+          "Maki>Lie"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Elly>Invite",
+          "Mark>Taunt"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Forceful"
+      ],
+      "gender": "IRRELEVANT",
+      "demons": [
+        "Picollus",
+        "Kwancha"
+      ],
+      "emotions": {
+        "happy": [],
+        "eager": [
+          "MC>Persuade"
+        ],
+        "angry": [
+          "MC>Invite",
+          "MC>Sing",
+          "Mark>Dance",
+          "Mark>Taunt"
+        ],
+        "scared": [
+          "MC>Taunt"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Genkurou"
+      ],
+      "emotions": {
+        "happy": [
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "eager": [
+          "Mark>Dance"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Sing",
+          "Nanjo>Pontificate",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Maki>Lie",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "MC>Invite",
+          "Maki>Flatter",
+          "Reiji>Ignore",
+          "Reiji>Threaten",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Selket"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Sarcasm",
+          "Maki>Flatter",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Joyful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Anatomy",
+        "Virtue"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Yukino>Persuade",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Pontificate",
+          "Ayase>Abuse",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Elly>Invite",
+          "Yukino>Bully",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Rakshasa"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Sarcasm",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Taunt",
+          "Yukino>Persuade"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Invite",
+          "MC>Sing",
+          "Mark>Taunt",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Forceful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Malphas"
+      ],
+      "emotions": {
+        "happy": [],
+        "eager": [
+          "MC>Persuade",
+          "Mark>Taunt",
+          "Elly>Soothe"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Elly>Horrify"
+        ],
+        "scared": [
+          "MC>Invite"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Tokebi"
+      ],
+      "emotions": {
+        "happy": [
+          "Elly>Soothe",
+          "Yukino>Bully",
+          "Yukino>Persuade",
+          "Maki>Plead"
+        ],
+        "eager": [
+          "Nanjo>Pontificate",
+          "Mark>Stare",
+          "Elly>Sing",
+          "Brown>Pickup"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Elly>Horrify",
+          "Elly>Invite",
+          "Yukino>Ignore",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Nanjo>Condescend",
+          "Elly>Horrify",
+          "Yukino>Scold",
+          "Reiji>Ignore",
+          "Reiji>Threaten",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Eligor",
+        "Ouroboros"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Nanjo>Pontificate",
+          "Elly>Sing"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Yukino>Bully",
+          "Ayase>Abuse",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Sing",
+          "Brown>Startle"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Ocypete",
+        "Celaeno",
+        "Aello"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Chat",
+          "Maki>Cringe"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Elly>Horrify",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Brown>Joke",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Sing",
+          "Mark>Taunt",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Joyful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Jack Frost"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "MC>Sing",
+          "Elly>Sing",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Elly>Soothe",
+          "Maki>Cringe"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Maki>Lie"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Elly>Horrify",
+          "Elly>Invite",
+          "Maki>Plead"
+        ],
+        "scared": [
+          "Maki>Flatter"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Joyful"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Fuji Musume",
+        "Rusalka",
+        "Nekomata"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Sing",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "MC>Invite",
+          "Yukino>Bully",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy"
+      ],
+      "gender": "IRRELEVANT",
+      "demons": [
+        "Slime"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Stare",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Brown>Pickup",
+          "Ayase>Seduce",
+          "Yukino>Bully"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Ayase>Cry"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Nanjo>Pontificate",
+          "Elly>Sing",
+          "Ayase>Threaten",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Mark>Taunt",
+          "Elly>Horrify",
+          "Ayase>Abuse"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Forceful"
+      ],
+      "gender": "IRRELEVANT",
+      "demons": [
+        "Zombie Girl"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Elly>Sing",
+          "Mark>Dance",
+          "Ayase>Seduce",
+          "Yukino>Persuade",
+          "Reiji>Yell"
+        ],
+        "eager": [
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Invite",
+          "Elly>Invite",
+          "MC>Threaten",
+          "Mark>Threaten",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Elly>Horrify",
+          "Brown>Chat",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Yukino>Bully",
+          "Yukino>Scold"
+        ],
+        "scared": [
+          "Yukino>Ignore",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Mr. Zombie",
+        "Zombie Boy",
+        "Ghost",
+        "Agathion"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Sing",
+          "Mark>Brag",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Elly>Invite",
+          "Ayase>Seduce"
+        ],
+        "eager": [
+          "Mark>Dance",
+          "Elly>Sing",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "Mark>Stare",
+          "Nanjo>Pontificate",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Yukino>Bully"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Condescend",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Yukino>Scold"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Nacht Kobold",
+        "Hoodlum",
+        "Afanc",
+        "Ogre",
+        "Phunbaba",
+        "Zap",
+        "Mizuchi",
+        "Mushus",
+        "Hecatoncheires"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Elly>Invite",
+          "Elly>Soothe",
+          "Ayase>Seduce",
+          "Yukino>Scold",
+          "Reiji>Yell",
+          "Maki>Flatter"
+        ],
+        "eager": [
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Elly>Invite",
+          "Brown>Startle",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Nanjo>Pontificate",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Yukino>Bully",
+          "Yukino>Persuade",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Ayase>Abuse",
+          "Yukino>Scold",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Forceful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Cu Sith",
+        "Nisroc",
+        "Teketeke"
+      ],
+      "emotions": {
+        "happy": [
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "MC>Invite",
+          "Brown>Startle"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Yukino>Bully",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Forceful"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Yaksini",
+        "Dakini"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Brown>Pickup"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "MC>Invite",
+          "Brown>Chat",
+          "Brown>Startle"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Brown>Joke",
+          "Yukino>Bully",
+          "Yukino>Persuade",
+          "Ayase>Abuse",
+          "Maki>Plead"
+        ],
+        "scared": [
+          "Yukino>Scold"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Knocker"
+      ],
+      "emotions": {
+        "happy": [
+          "Elly>Invite",
+          "Yukino>Persuade"
+        ],
+        "eager": [
+          "Elly>Sing",
+          "Mark>Brag"
+        ],
+        "angry": [
+          "Elly>Horrify",
+          "Elly>Soothe"
+        ],
+        "scared": [
+          "Yukino>Bully",
+          "Yukino>Scold"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Timid"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Pixie",
+        "Succubus"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Dance",
+          "Nanjo>Bribe",
+          "Yukino>Persuade",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Brag",
+          "Nanjo>Condescend",
+          "Ayase>Abuse",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Mark>Stare",
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm",
+          "Elly>Horrify",
+          "Ayase>Seduce",
+          "Ayase>Threaten",
+          "Yukino>Bully"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Condescend",
+          "Ayase>Cry",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Gandharva",
+        "Cupid"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Mark>Dance",
+          "Ayase>Seduce",
+          "Elly>Horrify",
+          "Elly>Sing",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "Elly>Invite",
+          "Mark>Taunt",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Ayase>Abuse"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Elly>Soothe",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Yukino>Bully",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Otohime",
+        "Paimon"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Dance",
+          "Brown>Pickup"
+        ],
+        "eager": [
+          "Mark>Taunt",
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Forceful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Yato no Kami",
+        "Haokah",
+        "Incubus"
+      ],
+      "emotions": {
+        "happy": [
+          "Yukino>Bully",
+          "Maki>Flatter"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "Mark>Stare",
+          "Brown>Joke",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Maki>Cringe"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Elly>Horrify",
+          "Brown>Pickup",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Brown>Joke"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Forceful"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Megaera",
+        "Tisiphone",
+        "Alecto",
+        "Tlazolteotl"
+      ],
+      "emotions": {
+        "happy": [
+          "Brown>Pickup",
+          "Yukino>Bully"
+        ],
+        "eager": [
+          "Maki>Cringe",
+          "Ayase>Threaten",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Threaten",
+          "Mark>Threaten",
+          "MC>Invite",
+          "MC>Sing",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Chat",
+          "Ayase>Seduce",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Ayase>Cry",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Brown>Joke",
+          "Brown>Startle",
+          "Ayase>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Preta",
+        "Ihika",
+        "Ba",
+        "Leprechaun",
+        "Yaka",
+        "Vetala"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Brown>Pickup",
+          "Yukino>Bully",
+          "Yukino>Persuade",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Dance",
+          "Nanjo>Sarcasm",
+          "Ayase>Cry"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Sing",
+          "Elly>Sing",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Maki>Plead",
+          "Maki>Flatter"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Timid"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Quicksilver",
+        "Moh Shuvuu",
+        "Iwate",
+        "Scylla"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe",
+          "Brown>Pickup",
+          "Elly>Horrify",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Reiji>Prestidigitate"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Elly>Soothe",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Brown>Startle",
+          "Reiji>Ignore",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Kokkuri",
+        "Alastor",
+        "Hresvelgr"
+      ],
+      "emotions": {
+        "happy": [
+          "Brown>Pickup",
+          "Reiji>Prestidigitate",
+          "Maki>Cringe"
+        ],
+        "eager": [
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Brag",
+          "Elly>Invite",
+          "Ayase>Cry"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Invite",
+          "Elly>Invite",
+          "MC>Sing",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Elly>Soothe",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Brown>Startle",
+          "Elly>Horrify",
+          "Ayase>Abuse"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Snappish"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Hannya",
+        "Arachne"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Elly>Horrify",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Elly>Sing"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Joke",
+          "Elly>Soothe",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Nanjo>Condescend",
+          "Mark>Taunt",
+          "Ayase>Cry",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Zombie Painter"
+      ],
+      "emotions": {
+        "happy": [
+          "Mark>Stare",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Taunt",
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Mark>Dance",
+          "Mark>Taunt",
+          "Brown>Pickup",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Brown>Joke",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Hi no Enma",
+        "Sumizome"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Sarcasm",
+          "Elly>Horrify",
+          "Maki>Flatter",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Taunt",
+          "Nanjo>Sarcasm",
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "Elly>Sing",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Elly>Soothe",
+          "Yukino>Ignore",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Nanjo>Condescend",
+          "Mark>Taunt",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Forceful",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Zombie Cop",
+        "Power",
+        "Gdon"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Elly>Horrify",
+          "Elly>Invite",
+          "Yukino>Bully",
+          "Maki>Flatter",
+          "Reiji>Yell"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Elly>Soothe",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Forceful",
+        "Snappish"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Lilim"
+      ],
+      "emotions": {
+        "happy": [
+          "Maki>Flatter",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Maki>Plead",
+          "Maki>Cringe"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Maki>Lie",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Yakuza",
+        "Dribbler",
+        "Archangel",
+        "Yaksa",
+        "Rukh"
+      ],
+      "emotions": {
+        "happy": [
+          "Elly>Horrify",
+          "MC>Sing",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Maki>Flatter"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Mark>Stare",
+          "Ayase>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Nanjo>Condescend",
+          "Mark>Stare",
+          "Elly>Soothe",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Plead",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "MC>Invite",
+          "MC>Sing",
+          "Yukino>Bully",
+          "Brown>Startle"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Salome"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Nanjo>Pontificate",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Brown>Joke"
+        ],
+        "eager": [
+          "Mark>Stare",
+          "Ayase>Seduce",
+          "Ayase>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Elly>Horrify",
+          "Elly>Sing",
+          "Yukino>Scold"
+        ],
+        "scared": [
+          "Yukino>Bully"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Toufei"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Sing",
+          "Nanjo>Pontificate",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Ignore",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Nanjo>Condescend",
+          "Maki>Flatter",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Joyful",
+        "Forceful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Polisun",
+        "Jinn",
+        "Barbatos"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "Mark>Brag"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Elly>Sing",
+          "Mark>Dance",
+          "Elly>Invite",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Ayase>Cry"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Berith",
+        "Fafnir"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Pontificate",
+          "Mark>Dance"
+        ],
+        "eager": [
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Mark>Taunt"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Snappish"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Dark Elf"
+      ],
+      "emotions": {
+        "happy": [
+          "Elly>Horrify"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Brown>Chat",
+          "Yukino>Persuade"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Startle",
+          "Ayase>Seduce",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Ayase>Abuse",
+          "Ayase>Cry"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Black Widow",
+        "Druj"
+      ],
+      "emotions": {
+        "happy": [
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Stare"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Reiji>Threaten",
+          "Reiji>Yell",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "MC>Sing",
+          "Mark>Taunt",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Principality",
+        "Naga",
+        "Dominion",
+        "Xiuhtecuhtli"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Pontificate",
+          "Mark>Stare",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "MC>Persuade",
+          "Mark>Stare",
+          "Elly>Soothe",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Sing",
+          "Nanjo>Condescend",
+          "Elly>Horrify",
+          "Ayase>Threaten",
+          "Yukino>Bully",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Sarashina-hime",
+        "Rangda",
+        "Throne"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm"
+        ],
+        "eager": [
+          "Mark>Stare",
+          "Reiji>Threaten",
+          "Ayase>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Elly>Horrify",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "MC>Sing",
+          "Yukino>Bully",
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Girimehkala"
+      ],
+      "emotions": {
+        "happy": [
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Condescend"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Mark>Taunt",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Pairika"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Elly>Sing",
+          "Brown>Chat",
+          "Yukino>Persuade",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Brown>Pickup",
+          "Brown>Startle",
+          "Yukino>Bully",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "Brown>Joke",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Joyful",
+        "Forceful"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Pyro Jack"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Maki>Flatter",
+          "Maki>Cringe"
+        ],
+        "eager": [
+          "MC>Invite",
+          "Maki>Lie"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Maki>Plead"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Joyful",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Ukobach",
+        "Angel"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "Nanjo>Bribe",
+          "Mark>Dance",
+          "Mark>Brag",
+          "Ayase>Seduce",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Elly>Sing",
+          "Ayase>Cry",
+          "Maki>Lie",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "Mark>Taunt",
+          "Mark>Stare",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Yukino>Threaten",
+          "Maki>Plead"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Brown>Startle",
+          "Elly>Horrify",
+          "Ayase>Abuse",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Maki>Flatter",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Joyful",
+        "Timid"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Hanako"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Brown>Startle",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "Nanjo>Pontificate",
+          "Brown>Chat",
+          "Maki>Plead",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "MC>Invite",
+          "Maki>Flatter",
+          "Reiji>Threaten"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy",
+        "Timid"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Nightmare",
+        "Enku",
+        "Catoblepas"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Nanjo>Sarcasm",
+          "Elly>Invite",
+          "Brown>Pickup",
+          "Ayase>Seduce",
+          "Yukino>Bully"
+        ],
+        "eager": [
+          "Ayase>Cry",
+          "Yukino>Ignore",
+          "Maki>Lie",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Invite",
+          "Mark>Brag",
+          "Elly>Sing",
+          "Elly>Soothe",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Nanjo>Condescend",
+          "Elly>Horrify",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Yukino>Scold",
+          "Reiji>Ignore",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy",
+        "Timid"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Bukimi"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Brown>Pickup",
+          "Brown>Chat",
+          "Ayase>Seduce",
+          "Yukino>Bully",
+          "Maki>Lie",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Reiji>Ignore"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm",
+          "Mark>Brag",
+          "Elly>Soothe",
+          "Brown>Joke",
+          "Ayase>Cry",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Cringe",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Condescend",
+          "Brown>Startle",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Scold",
+          "Yukino>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Poltergeist",
+        "Nozuchi"
+      ],
+      "emotions": {
+        "happy": [
+          "Mark>Brag",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Brown>Pickup",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Ayase>Seduce",
+          "Yukino>Persuade"
+        ],
+        "eager": [
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Elly>Invite"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Nanjo>Pontificate",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Ayase>Abuse",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Forceful",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Orthrus",
+        "Ubelluris"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Nanjo>Sarcasm",
+          "Elly>Invite",
+          "Elly>Soothe",
+          "Ayase>Seduce",
+          "Maki>Flatter",
+          "Maki>Cringe",
+          "Reiji>Yell"
+        ],
+        "eager": [
+          "MC>Taunt",
+          "Brown>Pickup",
+          "Elly>Invite",
+          "Ayase>Abuse"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Maki>Plead",
+          "Maki>Lie"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Elly>Horrify",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Siren"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Elly>Soothe"
+        ],
+        "eager": [
+          "Mark>Stare",
+          "Mark>Brag",
+          "Ayase>Seduce"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Elly>Sing",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Yukino>Bully",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Joyful",
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Kobold"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Bribe",
+          "Mark>Stare",
+          "Yukino>Persuade"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Ayase>Abuse",
+          "Ayase>Cry"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Mark>Stare",
+          "Ayase>Seduce",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Ignore",
+          "Reiji>Ignore"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Ayase>Cry",
+          "Yukino>Scold"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Carrie"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Elly>Horrify",
+          "Brown>Joke",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Elly>Invite"
+        ],
+        "angry": [
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Elly>Soothe",
+          "Brown>Pickup",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Condescend",
+          "Ayase>Abuse"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Forceful",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Cromm Cruach",
+        "Fenrir"
+      ],
+      "emotions": {
+        "happy": [
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "MC>Invite",
+          "Mark>Stare",
+          "Maki>Flatter",
+          "Maki>Cringe"
+        ],
+        "scared": []
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Joyful",
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Cait Sith",
+        "Oberon",
+        "Ganesha"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Elly>Soothe",
+          "Maki>Plead",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Elly>Invite",
+          "Reiji>Ignore",
+          "Reiji>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Yukino>Ignore",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Joyful",
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Gremlin"
+      ],
+      "emotions": {
+        "happy": [
+          "Ayase>Abuse"
+        ],
+        "eager": [
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Maki>Flatter"
+        ],
+        "scared": [
+          "MC>Invite"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Forceful",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Shadow",
+        "Adramelech"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Sing",
+          "Mark>Stare",
+          "Maki>Plead",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Stare",
+          "Ayase>Threaten"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Nanjo>Bribe",
+          "Brown>Chat",
+          "Ayase>Abuse",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Duergar"
+      ],
+      "emotions": {
+        "happy": [],
+        "eager": [
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "MC>Invite",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Maki>Plead",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "Nanjo>Condescend"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Doppelganger"
+      ],
+      "emotions": {
+        "happy": [
+          "MC>Persuade",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Condescend",
+          "Brown>Chat",
+          "Yukino>Persuade"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "Nanjo>Bribe",
+          "Nanjo>Sarcasm",
+          "Elly>Sing",
+          "Brown>Joke",
+          "Brown>Startle",
+          "Ayase>Seduce",
+          "Yukino>Ignore"
+        ],
+        "scared": [
+          "Elly>Horrify",
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Gloomy",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Kiyohime",
+        "Miyasudokoro"
+      ],
+      "emotions": {
+        "happy": [
+          "Mark>Dance",
+          "Yukino>Scold",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Nanjo>Condescend",
+          "Brown>Chat",
+          "Yukino>Persuade"
+        ],
+        "angry": [
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Sarcasm",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Pickup",
+          "Brown>Joke",
+          "Brown>Startle",
+          "Yukino>Bully",
+          "Yukino>Ignore",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe",
+          "Reiji>Threaten"
+        ],
+        "scared": [
+          "Ayase>Abuse",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Wise",
+        "Forceful",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Tengu"
+      ],
+      "emotions": {
+        "happy": [
+          "Elly>Horrify",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Elly>Soothe",
+          "Maki>Plead"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Elly>Invite",
+          "Reiji>Threaten",
+          "Reiji>Yell"
+        ],
+        "scared": [
+          "Reiji>Ignore"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy",
+        "Forceful",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Wyvern"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Sarcasm",
+          "Elly>Soothe",
+          "Elly>Invite",
+          "Brown>Pickup",
+          "Ayase>Seduce",
+          "Maki>Cringe",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Ayase>Cry",
+          "Maki>Cringe"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Elly>Horrify",
+          "Ayase>Abuse",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Maki>Plead",
+          "Yukino>Ignore"
+        ],
+        "scared": [
+          "Ayase>Cry",
+          "Reiji>Ignore",
+          "Reiji>Yell"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Foolish",
+        "Gloomy",
+        "Timid",
+        "Snappish"
+      ],
+      "gender": "MALE",
+      "demons": [
+        "Legion"
+      ],
+      "emotions": {
+        "happy": [
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [
+          "Mark>Dance",
+          "Ayase>Cry"
+        ],
+        "angry": [
+          "MC>Persuade",
+          "MC>Taunt",
+          "MC>Sing",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Maki>Lie"
+        ],
+        "scared": [
+          "MC>Invite",
+          "Ayase>Cry"
+        ]
+      }
+    },
+    {
+      "personality": [
+        "Gloomy",
+        "Forceful",
+        "Snappish",
+        "Haughty"
+      ],
+      "gender": "FEMALE",
+      "demons": [
+        "Kuchisake-onna"
+      ],
+      "emotions": {
+        "happy": [
+          "Nanjo>Sarcasm",
+          "Brown>Pickup",
+          "Maki>Plead",
+          "Reiji>Yell",
+          "Reiji>Prestidigitate"
+        ],
+        "eager": [],
+        "angry": [
+          "MC>Persuade",
+          "Yukino>Persuade",
+          "MC>Taunt",
+          "Mark>Taunt",
+          "MC>Invite",
+          "Elly>Invite",
+          "MC>Sing",
+          "Elly>Sing",
+          "Nanjo>Bribe",
+          "Nanjo>Pontificate",
+          "Nanjo>Condescend",
+          "Nanjo>Sarcasm",
+          "Mark>Dance",
+          "Mark>Stare",
+          "Mark>Brag",
+          "Brown>Joke",
+          "Brown>Chat",
+          "Brown>Startle",
+          "Elly>Horrify",
+          "Elly>Soothe",
+          "Yukino>Bully",
+          "Yukino>Scold",
+          "Yukino>Ignore",
+          "Reiji>Ignore",
+          "Ayase>Abuse",
+          "Ayase>Seduce",
+          "Ayase>Cry",
+          "Ayase>Threaten",
+          "Reiji>Threaten",
+          "Reiji>Yell",
+          "Maki>Plead",
+          "Maki>Flatter",
+          "Maki>Lie",
+          "Maki>Cringe"
+        ],
+        "scared": [
+          "Reiji>Threaten",
+          "Reiji>Prestidigitate"
+        ]
+      }
+    }
+  ]
 }

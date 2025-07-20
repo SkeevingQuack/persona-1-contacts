@@ -1,0 +1,41 @@
+{
+	"personalityTraits":["Wise", "Foolish", "Joyful", "Gloomy", "Timid", "Forceful", "Snappish", "Haughty"],
+	"negotiationSkills":[
+		{
+			"nickname":"MC",
+			"name":"Protagonist",
+			"skills":["Persuade", "Taunt", "Invite", "Sing"]
+		}, {
+			"nickname":"Nanjo",
+			"name":"Kei Nanjo",
+			"skills":["Bribe", "Pontificate", "Condescend", "Sarcasm"]
+		}, {
+			"nickname":"Mark",
+			"name":"Masao Inaba",
+			"skills":["Dance", "Taunt", "Stare", "Brag"]
+		}, {
+			"nickname":"Yukino",
+			"name":"Yukino Mayuzumi",
+			"skills":["Bully", "Persuade", "Scold", "Ignore"]
+		}, {
+			"nickname":"Elly",
+			"name":"Eriko Kirishima",
+			"skills":["Horrify", "Sing", "Soothe", "Invite"]
+		}, {
+			"nickname":"Maki",
+			"name":"Maki Sonomura",
+			"skills":["Plead", "Flatter", "Lie", "Cringe"]
+		}, {
+			"nickname":"Brown",
+			"name":"Hidehiko Uesugi",
+			"skills":["Pickup", "Joke", "Chat", "Startle"]
+		}, {
+			"nickname":"Ayase",
+			"name":"Yuka Ayase",
+			"skills":["Abuse", "Seduce", "Cry", "Threaten"]
+		}, {
+			"nickname":"Reiji",
+			"name":"Reiji Kido",
+			"skills":["Ignore", "Threaten", "Yell", "Prestidigitate"]
+		}]
+}
