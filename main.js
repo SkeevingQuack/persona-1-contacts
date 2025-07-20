@@ -231,7 +231,7 @@ function toggleReiji() {
 buttonReiji.addEventListener("click", toggleReiji);
 
 function compareSkill(character, skill, query) {
-	let query = query.split('>');
+	query = query.split('>');
 	return (character === query[0] && skill === query[1]);
 }
 
