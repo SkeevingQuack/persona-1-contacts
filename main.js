@@ -246,8 +246,27 @@ buttonGender.addEventListener("click", toggleGender);
 
 function updateTraits() {
 	if (personality.length === 4) {
-		//TODO
+		if (personality.includes('Wise') === false) {buttonWise.disabled = true;}
+		if (personality.includes('Foolish') === false) {buttonFoolish.disabled = true;}
+		if (personality.includes('Joyful') === false) {buttonJoyful.disabled = true;}
+		if (personality.includes('Gloomy') === false) {buttonGloomy.disabled = true;}
+		if (personality.includes('Timid') === false) {buttonTimid.disabled = true;}
+		if (personality.includes('Forceful') === false) {buttonForceful.disabled = true;}
+		if (personality.includes('Snappish') === false) {buttonSnappish.disabled = true;}
+		if (personality.includes('Haughty') === false) {buttonHaughty.disabled = true;}
+	} else if (personality.length < 4) {
+		buttonWise.disabled = false;
+		buttonFoolish.disabled = false;
+		buttonJoyful.disabled = false;
+		buttonGloomy.disabled = false;
+		buttonTimid.disabled = false;
+		buttonForceful.disabled = false;
+		buttonSnappish.disabled = false;
+		buttonHaughty.disabled = false;
+	} else {
+		console.log("panic!!");
 	}
+	updateResults();
 }
 
 function toggleWise() {
@@ -261,3 +280,80 @@ function toggleWise() {
 	updateTraits();
 }
 buttonWise.addEventListener("click", toggleWise);
+function toggleFoolish() {
+	if (personality.includes('Foolish')) {
+		personality = personality.filter((trait) => trait != 'Foolish');
+		buttonFoolish.classList.remove("activeButton");
+	} else {
+		personality.push('Foolish');
+		buttonFoolish.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonFoolish.addEventListener("click", toggleFoolish);
+function toggleJoyful() {
+	if (personality.includes('Joyful')) {
+		personality = personality.filter((trait) => trait != 'Joyful');
+		buttonJoyful.classList.remove("activeButton");
+	} else {
+		personality.push('Joyful');
+		buttonJoyful.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonJoyful.addEventListener("click", toggleJoyful);
+function toggleGloomy() {
+	if (personality.includes('Gloomy')) {
+		personality = personality.filter((trait) => trait != 'Gloomy');
+		buttonGloomy.classList.remove("activeButton");
+	} else {
+		personality.push('Gloomy');
+		buttonGloomy.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonGloomy.addEventListener("click", toggleGloomy);
+function toggleTimid() {
+	if (personality.includes('Timid')) {
+		personality = personality.filter((trait) => trait != 'Timid');
+		buttonTimid.classList.remove("activeButton");
+	} else {
+		personality.push('Timid');
+		buttonTimid.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonTimid.addEventListener("click", toggleTimid);
+function toggleForceful() {
+	if (personality.includes('Forceful')) {
+		personality = personality.filter((trait) => trait != 'Forceful');
+		buttonForceful.classList.remove("activeButton");
+	} else {
+		personality.push('Forceful');
+		buttonForceful.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonForceful.addEventListener("click", toggleForceful);
+function toggleSnappish() {
+	if (personality.includes('Snappish')) {
+		personality = personality.filter((trait) => trait != 'Snappish');
+		buttonSnappish.classList.remove("activeButton");
+	} else {
+		personality.push('Snappish');
+		buttonSnappish.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonSnappish.addEventListener("click", toggleSnappish);
+function toggleHaughty() {
+	if (personality.includes('Haughty')) {
+		personality = personality.filter((trait) => trait != 'Haughty');
+		buttonHaughty.classList.remove("activeButton");
+	} else {
+		personality.push('Haughty');
+		buttonHaughty.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonHaughty.addEventListener("click", toggleHaughty);
