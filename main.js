@@ -53,6 +53,7 @@ function toggleNanjo() {
 		buttonNanjo.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonNanjo.addEventListener("click", toggleNanjo);	
 function toggleMark() {
 	if (markInParty === false) {
@@ -65,6 +66,7 @@ function toggleMark() {
 		buttonMark.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonMark.addEventListener("click", toggleMark);	
 function toggleYukino() {
 	if (yukinoInParty === false) {
@@ -77,6 +79,7 @@ function toggleYukino() {
 		buttonYukino.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonYukino.addEventListener("click", toggleYukino);	
 function toggleElly() {
 	if (ellyInParty === false) {
@@ -89,6 +92,7 @@ function toggleElly() {
 		buttonElly.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonElly.addEventListener("click", toggleElly);	
 function toggleMaki() {
 	if (makiInParty === false) {
@@ -101,6 +105,7 @@ function toggleMaki() {
 		buttonMaki.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonMaki.addEventListener("click", toggleMaki);	
 function toggleBrown() {
 	if (brownInParty === false) {
@@ -113,6 +118,7 @@ function toggleBrown() {
 		buttonBrown.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonBrown.addEventListener("click", toggleBrown);	
 function toggleAyase() {
 	if (ayaseInParty === false) {
@@ -125,6 +131,7 @@ function toggleAyase() {
 		buttonAyase.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonAyase.addEventListener("click", toggleAyase);	
 function toggleReiji() {
 	if (reijiInParty === false) {
@@ -137,4 +144,5 @@ function toggleReiji() {
 		buttonReiji.classList.remove(activeButton);
 	}
 	updateMembers()
+}
 buttonReiji.addEventListener("click", toggleReiji);	
