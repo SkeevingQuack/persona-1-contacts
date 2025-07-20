@@ -241,7 +241,7 @@ function updateResults() {
 	contacts = contacts.filter((contact) => compareContacts(personality, currentGender, contact));
 	
 	let demons = contacts['demons'];
-	conosle.log(demons);
+	console.log(demons);
 	let emotions = contacts['emotions'];
 
 	demonList.innerText = demons.join(", ");
