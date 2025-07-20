@@ -5,10 +5,12 @@ html {
 }
 
 body {
-	margin:2rem;
+	margin: 2rem;
 }
 
-button {}
+button {
+	font-size: 1rem;
+}
 
 .partyPicker {
 	margin-bottom: 2rem;
@@ -23,6 +25,10 @@ button {}
 .angry {color: hsl(0, 80%, 70%);}
 .scared {color: hsl(270, 80%, 70%);}
 .nothing {color: hsl(0, 10%, 60%);}
+
+table {
+	border-collapse: collapse;
+}
 
 th,
 td {
