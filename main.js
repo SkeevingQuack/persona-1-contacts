@@ -6,23 +6,10 @@ const buttonTimid = document.querySelector(".buttonTimid");
 const buttonForceful = document.querySelector(".buttonForceful");
 const buttonSnappish = document.querySelector(".buttonSnappish");
 const buttonHaughty = document.querySelector(".buttonHaughty");
-
-//function toggleWise()
-//buttonWise.addEventListener("click", toggleWise);
+let personality = [];
 
 const buttonGender = document.querySelector(".buttonGender");
 let currentGender = "FEMALE";
-
-function changeGender() {
-	if (currentGender === "FEMALE") {
-		currentGender = "MALE";
-		buttonGender.innerText = "♂";
-	} else {
-		currentGender = "FEMALE";
-		buttonGender.innerText = "♀";
-	}
-	//updateTraits();
-}
 
 
 const mcInParty = true;
@@ -241,3 +228,32 @@ function toggleReiji() {
 	updateMembers()
 }
 buttonReiji.addEventListener("click", toggleReiji);
+
+
+function updateResults() {console.log("updateResults todo")}
+
+function toggleGender() {
+	if (currentGender === "FEMALE") {
+		currentGender = "MALE";
+		buttonGender.innerText = "♂";
+	} else {
+		currentGender = "FEMALE";
+		buttonGender.innerText = "♀";
+	}
+	updateResults();
+}
+buttonGender.addEventListener("click", toggleGender);
+
+function updateTraits() {console.log("updateTraits todo")}
+
+function toggleWise() {
+	if personality.includes('Wise') {
+		personality = personality.filter((trait) => trait != 'Wise');
+		buttonWise.classList.remove("activeButton");
+	} else {
+		personality.push('Wise');
+		buttonWise.classList.add('activeButton');
+	}
+	updateTraits();
+}
+buttonWise.addEventListener("click", toggleWise);
