@@ -101,6 +101,17 @@
       ]
     }
   ],
+  "memberHTML": {
+    "MC": "<th>MC</th><td>Persuade</td><td>Taunt</td><td>Invite</td><td>Sing</td>",
+    "Nanjo": "<th>Nanjo</th><td>Bribe</td><td>Pontificate</td><td>Condescend</td><td>Sarcasm</td>",
+    "Mark": "<th>Mark</th><td>Dance</td><td>Taunt</td><td>Stare</td><td>Brag</td>",
+    "Yukino": "<th>Yukino</th><td>Bully</td><td>Persuade</td><td>Scold</td><td>Ignore</td>",
+    "Elly": "<th>Elly</th><td>Horrify</td><td>Sing</td><td>Soothe</td><td>Invite</td>",
+    "Maki": "<th>Maki</th><td>Plead</td><td>Flatter</td><td>Lie</td><td>Cringe</td>",
+    "Brown": "<th>Brown</th><td>Pickup</td><td>Joke</td><td>Chat</td><td>Startle</td>",
+    "Ayase": "<th>Ayase</th><td>Abuse</td><td>Seduce</td><td>Cry</td><td>Threaten</td>",
+    "Reiji": "<th>Reiji</th><td>Ignore</td><td>Threaten</td><td>Yell</td><td>Prestidigitate</td>",
+  },
   "personalities": [
     {
       "personality": [

@@ -10,29 +10,34 @@ body {
 
 button {
 	font-size: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .partyPicker {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .traitPicker {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .happy {color: hsl(50, 80%, 70%);}
 .eager {color: hsl(30, 80%, 70%);}
 .angry {color: hsl(0, 80%, 70%);}
-.scared {color: hsl(270, 80%, 70%);}
-.nothing {color: hsl(0, 10%, 60%);}
+.scared {color: hsl(230, 80%, 70%);}
+.nothing {color: hsl(0, 10%, 60%, 0.8);}
+
+.activeButton {background-color: hsl(130, 78%, 70%);}
+
 
 table {
 	border-collapse: collapse;
+	font-size: 1.5rem;
 }
 
 th,
 td {
-	border: 1px solid hsl(0, 60%, 60%);
+	border: 1px solid hsl(0, 0%, 30%);
 }
 
 tbody > tr {
