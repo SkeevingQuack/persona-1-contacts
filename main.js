@@ -238,7 +238,7 @@ function compareContacts(personality, gender, query) {
 
 function updateResults() {
 	let contacts = blob['personalities'];
-	contacts = contacts.filter((contact) => compareContacts(personality, gender, contact));
+	contacts = contacts.filter((contact) => compareContacts(personality, currentGender, contact));
 	
 	let demons = contacts['demons'];
 	let emotions = contacts['emotions'];
