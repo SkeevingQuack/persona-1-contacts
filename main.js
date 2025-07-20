@@ -229,13 +229,16 @@ function toggleReiji() {
 }
 buttonReiji.addEventListener("click", toggleReiji);
 
+//function compareContacts(personality, gender, query) {
 
 
 function updateResults() {
 	let contacts = blob['personalities'];
 
-	contacts.filter((contact) => 
+	contacts = contacts.filter((contact) => 
 		JSON.stringify(contact['personality']) == JSON.stringify(personality))
+
+	return contacts;
 }
 
 function toggleGender() {
