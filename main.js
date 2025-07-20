@@ -40,7 +40,7 @@ async function grabBlob() {
 	return blob;
 }
 
-const blob = grabBlob();
+let blob = grabBlob();
 
 function updateMembers() {
 	console.log(blob["memberHTML"]["MC"]);
