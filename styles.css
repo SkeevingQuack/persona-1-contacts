@@ -41,16 +41,16 @@ button {
 	color: black;
 }
 .eager {
-	background-color: hsl(30, 80%, 70%);
+	background-color: hsl(14, 77%, 52%);
 	color: black;
 }
 .angry {
-	background-color: hsl(0, 86%, 68%);
-	color: black;
+	background-color: hsl(358, 84%, 20%);
+	color: white;
 }
 .scared {
-	background-color: hsl(230, 80%, 70%);
-	color: black;
+	background-color: hsl(230, 80%, 20%);
+	color: white;
 }
 .nothing {color: hsl(0, 10%, 60%, 0.8);}
 
