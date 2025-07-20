@@ -46,11 +46,11 @@ function toggleNanjo() {
 	if (nanjoInParty === false) {
 		nanjoInParty = true;
 		partySize += 1;
-		buttonNanjo.classList.add(activeButton);
+		buttonNanjo.classList.add("activeButton");
 	} else if (nanjoInParty === true) {
 		nanjoInParty = false;
 		partySize -= 1;
-		buttonNanjo.classList.remove(activeButton);
+		buttonNanjo.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -59,11 +59,11 @@ function toggleMark() {
 	if (markInParty === false) {
 		markInParty = true;
 		partySize += 1;
-		buttonMark.classList.add(activeButton);
+		buttonMark.classList.add("activeButton");
 	} else if (markInParty === true) {
 		markInParty = false;
 		partySize -= 1;
-		buttonMark.classList.remove(activeButton);
+		buttonMark.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -72,11 +72,11 @@ function toggleYukino() {
 	if (yukinoInParty === false) {
 		yukinoInParty = true;
 		partySize += 1;
-		buttonYukino.classList.add(activeButton);
+		buttonYukino.classList.add("activeButton");
 	} else if (yukinoInParty === true) {
 		yukinoInParty = false;
 		partySize -= 1;
-		buttonYukino.classList.remove(activeButton);
+		buttonYukino.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -85,11 +85,11 @@ function toggleElly() {
 	if (ellyInParty === false) {
 		ellyInParty = true;
 		partySize += 1;
-		buttonElly.classList.add(activeButton);
+		buttonElly.classList.add("activeButton");
 	} else if (ellyInParty === true) {
 		ellyInParty = false;
 		partySize -= 1;
-		buttonElly.classList.remove(activeButton);
+		buttonElly.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -98,11 +98,11 @@ function toggleMaki() {
 	if (makiInParty === false) {
 		makiInParty = true;
 		partySize += 1;
-		buttonMaki.classList.add(activeButton);
+		buttonMaki.classList.add("activeButton");
 	} else if (makiInParty === true) {
 		makiInParty = false;
 		partySize -= 1;
-		buttonMaki.classList.remove(activeButton);
+		buttonMaki.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -111,11 +111,11 @@ function toggleBrown() {
 	if (brownInParty === false) {
 		brownInParty = true;
 		partySize += 1;
-		buttonBrown.classList.add(activeButton);
+		buttonBrown.classList.add("activeButton");
 	} else if (brownInParty === true) {
 		brownInParty = false;
 		partySize -= 1;
-		buttonBrown.classList.remove(activeButton);
+		buttonBrown.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -124,11 +124,11 @@ function toggleAyase() {
 	if (ayaseInParty === false) {
 		ayaseInParty = true;
 		partySize += 1;
-		buttonAyase.classList.add(activeButton);
+		buttonAyase.classList.add("activeButton");
 	} else if (ayaseInParty === true) {
 		ayaseInParty = false;
 		partySize -= 1;
-		buttonAyase.classList.remove(activeButton);
+		buttonAyase.classList.remove("activeButton");
 	}
 	updateMembers()
 }
@@ -137,11 +137,11 @@ function toggleReiji() {
 	if (reijiInParty === false) {
 		reijiInParty = true;
 		partySize += 1;
-		buttonReiji.classList.add(activeButton);
+		buttonReiji.classList.add("activeButton");
 	} else if (reijiInParty === true) {
 		reijiInParty = false;
 		partySize -= 1;
-		buttonReiji.classList.remove(activeButton);
+		buttonReiji.classList.remove("activeButton");
 	}
 	updateMembers()
 }
