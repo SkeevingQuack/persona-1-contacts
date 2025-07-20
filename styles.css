@@ -36,11 +36,11 @@ button {
 	flex-wrap: wrap;
 }
 
-.happy {
+.eager {
 	background-color: hsl(50, 80%, 70%);
 	color: black;
 }
-.eager {
+.happy {
 	background-color: hsl(14, 77%, 52%);
 	color: black;
 }
