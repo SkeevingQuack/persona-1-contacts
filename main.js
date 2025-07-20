@@ -248,16 +248,19 @@ function updateResults() {
 		let genderMatch = contact['gender'] == currentGender || contact['gender'] == "IRRELEVANT";
 		if (personalityMatch && genderMatch) {
 			result = contact;
-			console.log("contact found");
 			break;
 		}
 	}
-	console.log("here is the contact" + JSON.stringify(result))
-	
-	let demons = result['demons'];
-	let emotions = result['emotions'];
+	if (result === undefined) {
+		demonList.innerText = " ";
 
-	demonList.innerText = demons.join(", ");
+		//todo: clear skill hints
+	} else {
+		let demons = result['demons'];
+		let emotions = result['emotions'];
+
+		demonList.innerText = demons.join(", ");
+	}
 }
 
 function toggleGender() {
