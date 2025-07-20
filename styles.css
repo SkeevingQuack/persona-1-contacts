@@ -1,8 +1,8 @@
-body {
+html {
 	background-color: hsl(282, 42%, 24%);
 	color: hsl(0, 0%, 90%)
 }
 
-#wrapper {
+body {
 	margin:2em;
 }
