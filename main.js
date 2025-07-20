@@ -230,13 +230,43 @@ function toggleReiji() {
 }
 buttonReiji.addEventListener("click", toggleReiji);
 
-/* Filter function?
-function compareContacts(personality, gender, query) {
-	let personalityMatch = JSON.stringify(query['personality']) == JSON.stringify(personality);
-	let genderMatch = query['gender'] == gender || query['gender'] == "IRRELEVANT";
-	return personalityMatch && genderMatch;
+function compareSkill(character, skill, query) {
+	let query = query.split('>');
+	return (character === query[0] && skill === query[1]);
 }
-*/
+
+function dictifyEmotions(fourTuple) {
+	/* Triple version
+	let result = [];
+	for (index in fourTuple['happy']) { 
+		result.push(fourTuple['happy'][index].split('>').push('Happy'));
+	}
+	for (index in fourTuple['eager']) {
+		result.push(fourTuple['eager'][index].split('>').push('Eager'));
+	}
+	for (index in fourTuple['angry']) {
+		result.push(fourTuple['angry'][index].split('>').push('Angry'));
+	}
+	for (index in fourTuple['scared']) {
+		result.push(fourTuple['scared'][index].split('>').push('Scared'));
+	}
+	*/
+	let result = {};
+	for (index in fourTuple['happy']) { 
+		result[fourTuple['happy'][index]] = 'Happy';
+	}
+	for (index in fourTuple['eager']) {
+		result[fourTuple['eager'][index]] = 'Eager';
+	}
+	for (index in fourTuple['angry']) {
+		result[fourTuple['angry'][index]] = 'Angry';
+	}
+	for (index in fourTuple['scared']) {
+		result[fourTuple['scared'][index]] = 'Scared';
+	}
+	return result;
+}
+
 
 function updateResults() {
 	let contacts = blob['personalities'];
@@ -252,15 +282,36 @@ function updateResults() {
 		}
 	}
 	if (result === undefined) {
-		demonList.innerText = " ";
-
-		//todo: clear skill hints
+		let demons = [];
+		let emotions = {};
 	} else {
 		let demons = result['demons'];
-		let emotions = result['emotions'];
-
-		demonList.innerText = demons.join(", ");
+		let emotions = dictifyEmotions(result['emotions']);
 	}
+	demonList.innerText = demons.join(", ");
+
+	for (row in memberList) {
+		let character = memberList[row].children[0].innerText;
+		for (let col = 1; col < 5; col++) {
+			let node = memberList[row].children[col];
+			let key = character + '>' + node.innerText;
+
+			switch(emotions[key]) {
+				case undefined: 
+					node.classList.add('nothing'); 
+					break;
+				case 'Angry':
+					node.classList.add('angry'); 
+					break;
+				case 'Happy':
+					node.classList.add('happy'); 
+					break;
+				case 'Eager':
+					node.classList.add('eager');
+					break;
+				case 'Scared':
+					node.classList.add('scared');
+					break;
 }
 
 function toggleGender() {

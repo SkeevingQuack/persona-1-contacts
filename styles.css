@@ -16,6 +16,10 @@ button {
 	height: 2.5rem;
 }
 
+.buttonGender {
+	width: 40%;
+}
+
 .partyPicker {
 	margin-bottom: 1rem;
 
@@ -52,10 +56,10 @@ td {
 }
 
 td {
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 th {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 tbody > tr {
@@ -69,4 +73,6 @@ tbody > tr:nth-of-type(even) {
 .demonList {
 	height: 3em;
 	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 1em;
 }
