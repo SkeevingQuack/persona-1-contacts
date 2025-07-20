@@ -242,7 +242,8 @@ function updateResults() {
 	let contacts = blob['personalities'];
 	let result;
 
-	for (contact in contacts) {
+	for (index in contacts) {
+		let contact = contacts[prop];
 		let personalityMatch = JSON.stringify(contact['personality']) == JSON.stringify(personality);
 		let genderMatch = contact['gender'] == currentGender || contact['gender'] == "IRRELEVANT";
 		if (personalityMatch && genderMatch) {
