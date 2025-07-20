@@ -1,0 +1,482 @@
+Wise (Male): Culebre
+
+    Happy:
+    Eager: Taunt (MC), Pontificate
+    Angry: Persuade (MC), Bribe, Plead, Flatter
+    Scared: Invite (MC), Sing (MC), Prestidigitate
+
+Foolish (Male): Cockatrice, Nue, Ocelot
+
+    Happy: Persuade (MC, Yukino), Sing (MC), Sarcasm, Flatter
+    Eager: Bribe, Ignore (Yukino, Reiji), Lie
+    Angry: Taunt (MC, Mark), Invite (MC), Pontificate, Dance, Startle, Bully, Scold, Plead, Cringe, Threaten (Reiji), Scream
+    Scared: Condescend, Pickup, Abuse, Prestidigitate
+
+Foolish (Female): Yomotsu Shikome, Cath Paluc
+
+    Happy: Sing (MC), Bribe, Sarcasm, Stare, Brag, Soothe, Joke, Seduce, Persuade (Yukino), Scream
+    Eager: Abuse, Lie, Ignore (Yukino, Reiji)
+    Angry: Persuade (MC, Yukino), Taunt (MC), Invite (MC, Elly), Pontificate, Sing (Elly), Pickup, Chat, Startle, Cry, Threaten (Ayase, Reiji), Bully, Scold, Ignore, Scream
+    Scared: Condescend, Horrify, Abuse, Ignore (Yukino)
+
+Joyful (Male): Purski
+
+    Happy: Sing (MC), Dance, Chat, Scold, Prestidigitate
+    Eager: Invite (MC), Taunt (Mark)
+    Angry: Persuade (MC), Taunt (MC), Bribe, Stare, Invite (Elly), Bully, Scream, Threaten (Reiji)
+    Scared: Ignore (Reiji), Threaten (Reiji)
+
+Joyful (Female): Titania
+
+    Happy: Sing (MC), Dance, Brag
+    Eager: Invite (MC)
+    Angry: Persuade (MC), Taunt (MC), Invite (MC), Bribe, Pontificate, Condescend, Sarcasm, Stare
+    Scared:
+
+Gloomy: Zombie Nurse
+
+    Happy: Stare, Bully, Lie
+    Eager: Sarcasm
+    Angry: Persuade (MC, Yukino), Taunt (MC), Sing, Condescend, Dance, Brag, Scold, Ignore, Flatter, Lie, Threaten (Reiji)
+    Scared: Invite, Taunt (Mark)
+
+Forceful: Picollus, Kwancha
+
+    Happy:
+    Eager: Persuade (MC)
+    Angry: Invite (MC), Sing (MC), Dance, Taunt (Mark)
+    Scared: Taunt (MC)
+
+Timid (Male): Genkurou
+
+    Happy: Plead, Lie, Cringe
+    Eager: Dance
+    Angry: Persuade (MC), Sing (MC), Pontificate, Stare, Brag, Lie, Scream
+    Scared: Taunt (MC), Invite (MC), Flatter, Ignore (Reiji), Threaten (Reiji), Prestidigitate
+
+Haughty (Female): Selket
+
+    Happy: Sarcasm, Flatter, Prestidigitate
+    Eager: Stare
+    Angry: Persuade (MC), Taunt (MC), Invite (MC), Sing (MC), Lie, Cringe, Ignore (Reiji), Threaten (Reiji)
+    Scared: Scream
+
+Wise, Joyful (Male): Anatomy, Virtue
+
+    Happy: Sing, Pontificate, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate
+    Eager: Pontificate, Abuse, Plead
+    Angry: Persuade (MC), Taunt, Bribe, Pontificate, Condescend, Dance, Plead, Flatter, Scream
+    Scared: Invite, Bully, Ignore (Reiji), Threaten (Reiji)
+
+Wise, Gloomy (Male): Rakshasa
+
+    Happy: Sarcasm, Prestidigitate
+    Eager: Taunt (MC), Persuade (Yukino)
+    Angry: Persuade (MC), Bribe, Pontificate, Condescend, Dance, Bully, Scold, Plead, Flatter, Lie, Cringe, Threaten (Reiji), Scream
+    Scared: Invite (MC), Sing (MC), Taunt (Mark), Ignore (Reiji)
+
+Wise, Forceful (Male): Malphas
+
+    Happy:
+    Eager: Persuade (MC), Taunt (Mark), Soothe
+    Angry: Taunt (MC, Mark), Sing (MC, Elly), Sarcasm, Dance, Stare, Horrify
+    Scared: Invite (MC)
+
+Wise, Timid (Male): Tokebi
+
+    Happy: Soothe, Bully, Persuade (Yukino), Plead
+    Eager: Pontificate, Stare, Sing (Elly), Pickup
+    Angry: Persuade (MC), Sarcasm, Stare, Horrify, Invite (Elly), Ignore (Yukino), Flatter, Lie, Cringe
+    Scared: Taunt (MC), Invite (MC), Sing (MC), Condescend, Horrify, Scold, Ignore (Reiji), Threaten (Reiji), Prestidigitate
+
+Wise, Haughty (Male): Eligor, Ouroboros
+
+    Happy: Persuade (MC), Pontificate, Sing (Elly)
+    Eager: Persuade (MC), Stare
+    Angry: Persuade (MC), Taunt (MC), Invite (MC, Elly), Bribe, Condescend, Sarcasm, Horrify, Soothe, Bully, Abuse, Threaten (Reiji), Scream
+    Scared: Sing (MC), Startle
+
+Wise, Haughty (Female): Ocypete, Celaeno, Aello
+
+    Happy: Pontificate, Sarcasm, Dance, Stare, Brag, Prestidigitate
+    Eager: Taunt (MC, Mark), Stare, Brag, Chat, Cringe
+    Angry: Persuade (MC), Taunt (MC), Invite (MC, Elly), Bribe, Condescend, Brag, Pickup, Horrify, Sing (Elly), Soothe, Joke, Abuse, Seduce, Cry, Threaten (Ayase, Reiji), Plead, Flatter, Lie, Cringe, Scream
+    Scared: Sing (MC), Taunt (Mark), Ignore (Reiji)
+
+Foolish, Joyful (Male): Jack Frost
+
+    Happy: Persuade (MC), Sing, Dance, Stare, Soothe, Cringe
+    Eager: Invite (MC), Lie
+    Angry: Taunt (MC, Mark), Pickup, Joke, Horrify, Invite (Elly), Plead
+    Scared: Flatter
+
+Foolish, Joyful (Female): Fuji Musume, Rusalka, Nekomata
+
+    Happy: Persuade (MC, Yukino), Sing (MC), Lie, Cringe, Prestidigitate
+    Eager: Invite (MC), Ignore (Reiji)
+    Angry: Taunt (MC), Invite (MC), Bully, Plead, Flatter, Scream
+    Scared: Threaten (Reiji)
+
+Foolish, Gloomy: Slime
+
+    Happy: Sing (MC), Stare, Soothe, Invite (Elly), Pickup, Seduce, Bully
+    Eager: Invite (MC), Bribe, Cry
+    Angry: Persuade (MC, Yukino), Taunt (MC), Dance, Brag, Pontificate, Sing (Elly), Threaten
+    Scared: Taunt (Mark), Horrify, Abuse
+
+Foolish, Forceful: Zombie Girl
+
+    Happy: Sing, Dance, Seduce, Persuade (Yukino), Scream
+    Eager: Threaten, Ignore (Yukino, Reiji)
+    Angry: Persuade (MC), Invite, Threaten (MC, Mark), Bribe, Pontificate, Condescend, Sarcasm, Horrify, Chat, Abuse, Cry, Bully, Scold
+    Scared: Ignore (Yukino), Prestidigitate
+
+Foolish, Timid (Male): Mr. Zombie, Zombie Boy, Ghost, Agathion
+
+    Happy: Persuade (MC, Yukino), Sing (MC), Brag, Bribe, Sarcasm, Invite (Elly), Seduce
+    Eager: Dance, Sing (Elly), Threaten, Ignore
+    Angry: Stare, Pontificate, Horrify, Soothe, Bully
+    Scared: Taunt, Invite, Condescend, Abuse, Cry, Scold
+
+Foolish, Snappish (Male): Nacht Kobold, Hoodlum, Afanc, Ogre, Phunbaba, Zap, Mizuchi, Mushus, Hecatoncheires
+
+    Happy: Persuade (MC, Yukino), Bribe, Sarcasm, Invite (Elly), Soothe, Seduce, Scold, Scream, Flatter
+    Eager: Bribe, Condescend, Sarcasm, Invite (Elly), Startle, Threaten (Reiji)
+    Angry: Taunt (MC, Mark), Invite (MC), Sing (MC, Elly), Bribe, Condescend, Dance, Stare, Brag, Pontificate, Pickup, Joke, Chat, Startle, Abuse, Bully, Persuade (Yukino), Ignore (Yukino, Reiji), Plead, Flatter, Lie, Cringe, Threaten (Reiji), Scream
+    Scared: Horrify, Abuse, Scold, Scream, Prestidigitate
+
+Joyful, Forceful (Male): Cu Sith, Nisroc, Teketeke
+
+    Happy: Lie, Cringe, Scream, Prestidigitate
+    Eager: Persuade (MC), Invite (MC), Startle
+    Angry: Taunt (MC, Mark), Bribe, Pontificate, Condescend, Sarcasm, Dance, Stare, Pickup, Joke, Chat, Bully, Plead, Flatter, Ignore (Reiji)
+    Scared: Threaten (Reiji)
+
+Joyful, Forceful (Female): Yaksini, Dakini
+
+    Happy: Sing (MC), Pickup
+    Eager: Persuade (MC), Invite (MC), Chat, Startle
+    Angry: Taunt, Invite (MC), Sing (Elly), Soothe, Joke, Bully, Persuade (Yukino), Abuse, Plead
+    Scared: Scold
+
+Joyful, Timid (Male): Knocker
+
+    Happy: Invite (Elly), Persuade (Yukino)
+    Eager: Sing (Elly), Brag
+    Angry: Horrify, Soothe
+    Scared: Bully, Scold
+
+Joyful, Timid (Female): Pixie, Succubus
+
+    Happy: Sing (MC), Dance, Bribe, Persuade (Yukino), Prestidigitate
+    Eager: Brag, Condescend, Abuse, Plead
+    Angry: Persuade (MC), Stare, Pontificate, Sarcasm, Horrify, Seduce, Threaten (Ayase), Bully
+    Scared: Taunt (MC, Mark), Invite (MC), Condescend, Cry, Ignore (Reiji), Threaten (Reiji)
+
+Joyful, Haughty (Male): Gandharva, Cupid
+
+    Happy: Bribe, Pontificate, Dance, Seduce, Horrify, Sing (Elly), Prestidigitate
+    Eager: Persuade (MC), Invite (Elly), Taunt (Mark), Stare, Brag, Abuse
+    Angry: Persuade (MC), Taunt (MC), Invite (MC), Bribe, Condescend, Sarcasm, Cry, Threaten (Ayase), Soothe, Plead, Flatter, Lie, Cringe, Ignore (Reiji)
+    Scared: Bully, Threaten (Reiji), Scream
+
+Joyful, Haughty (Female): Otohime, Paimon
+
+    Happy: Sing (MC), Dance, Pickup
+    Eager: Taunt (Mark), Stare
+    Angry: Persuade (MC), Taunt (MC), Invite (MC, Elly)
+    Scared:
+
+Gloomy, Forceful (Male): Yato no Kami, Haokah, Incubus
+
+    Happy: Bully, Flatter
+    Eager: Persuade (MC), Taunt (MC), Stare, Joke, Cry, Threaten (Ayase, Reiji), Cringe
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC), Sing (MC, Elly), Dance, Stare, Brag, Horrify, Pickup, Chat, Startle, Abuse, Seduce, Scold, Plead, Lie, Ignore (Reiji)
+    Scared: Horrify, Joke
+
+Gloomy, Forceful (Female): Megaera, Tisiphone, Alecto, Tlazolteotl
+
+    Happy: Pickup, Bully
+    Eager: Cringe, Threaten (Ayase, Reiji)
+    Angry: Persuade (MC, Yukino), Threaten (MC, Mark), Invite (MC), Sing (MC), Dance, Stare, Brag, Chat, Seduce, Horrify, Soothe, Cry, Scold, Ignore
+    Scared: Joke, Startle, Threaten (Ayase)
+
+Gloomy, Timid (Male): Preta, Ihika, Ba, Leprechaun, Yaka, Vetala
+
+    Happy: Bribe, Sarcasm, Dance, Pickup, Bully, Persuade (Yukino), Scold, Plead, Lie, Cringe, Prestidigitate
+    Eager: Dance, Sarcasm, Cry
+    Angry: Persuade (MC), Sing (MC, Elly), Stare, Brag, Pontificate, Condescend, Sarcasm, Joke, Chat, Horrify, Soothe, Invite (Elly), Seduce, Cry, Plead, Flatter
+    Scared: Taunt (MC, Mark), Invite (MC), Startle, Abuse, Cry, Threaten (Ayase, Reiji), Ignore (Yukino, Reiji), Scream
+
+Gloomy, Timid (Female): Quicksilver, Moh Shuvuu, Iwate, Scylla
+
+    Happy: Bribe, Pickup, Horrify, Scream, Prestidigitate
+    Eager: Sarcasm, Prestidigitate
+    Angry: Persuade (MC, Yukino), Sing (MC, Elly), Pontificate, Condescend, Dance, Stare, Brag, Joke, Chat, Soothe, Seduce, Cry, Bully, Scold, Ignore (Yukino), Plead, Flatter, Lie, Cringe
+    Scared: Taunt (MC, Mark), Invite (MC), Startle, Ignore (Reiji), Threaten (Ayase, Reiji), Prestidigitate
+
+Gloomy, Snappish (Male): Kokkuri, Alastor, Hresvelgr
+
+    Happy: Pickup, Prestidigitate, Cringe
+    Eager: Condescend, Sarcasm, Brag, Invite (Elly), Cry
+    Angry: Persuade (MC, Yukino), Invite (MC, Elly), Sing (MC), Sarcasm, Dance, Brag, Joke, Chat, Soothe, Seduce, Cry, Threaten (Ayase, Reiji), Bully, Plead, Lie, Cringe, Ignore (Reiji), Scream
+    Scared: Invite (MC), Startle, Horrify, Abuse
+
+Gloomy, Snappish (Female): Hannya, Arachne
+
+    Happy: Bribe, Brag, Pickup, Horrify, Scream, Prestidigitate
+    Eager: Sarcasm, Sing (Elly)
+    Angry: Persuade (MC, Yukino), Taunt (MC), Invite (MC, Elly), Sing (MC, Elly), Bribe, Pontificate, Dance, Stare, Brag, Joke, Soothe, Bully, Scold, Ignore (Reiji), Threaten (Reiji)
+    Scared: Condescend, Taunt (Mark), Cry, Prestidigitate
+
+Gloomy, Haughty (Male): Zombie Painter
+
+    Happy: Stare, Prestidigitate
+    Eager: Taunt (MC), Stare
+    Angry: Persuade (MC), Dance, Taunt (Mark), Pickup, Chat, Startle, Threaten (Reiji)
+    Scared: Joke, Ignore (Reiji), Scream
+
+Gloomy, Haughty (Female): Hi no Enma, Sumizome
+
+    Happy: Sarcasm, Horrify, Flatter, Scream, Prestidigitate
+    Eager: Taunt (MC), Sarcasm, Stare
+    Angry: Persuade (MC, Yukino), Sing (Elly), Invite (MC, Elly), Bribe, Pontificate, Dance, Brag, Soothe, Ignore (Yukino), Plead, Lie, Cringe, Threaten (Reiji)
+    Scared: Condescend, Taunt (Mark), Bully, Scold, Ignore (Reiji)
+
+Forceful, Snappish (Male): Zombie Cop, Power, Gdon
+
+    Happy: Persuade (MC), Horrify, Invite (Elly), Bully, Flatter, Scream
+    Eager: Persuade (MC), Plead
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC), Sing (Elly), Pontificate, Condescend, Sarcasm, Soothe, Pickup, Joke, Chat, Startle, Abuse, Seduce, Cry, Threaten (Ayase, Reiji), Scold, Ignore (Yukino, Reiji), Lie, Cringe
+    Scared:
+
+Forceful, Snappish (Female): Lilim
+
+    Happy: Flatter, Scream, Prestidigitate
+    Eager: Plead, Cringe
+    Angry: Taunt (MC), Lie, Ignore (Reiji), Threaten (Reiji)
+    Scared:
+
+Forceful, Haughty (Male): Yakuza, Dribbler, Archangel, Yaksa, Rukh
+
+    Happy: Horrify, Sing (MC, Elly), Soothe, Invite (Elly), Flatter
+    Eager: Invite (MC), Stare, Threaten (Ayase)
+    Angry: Persuade (MC, Yukino), Taunt (MC), Invite (MC), Sing (MC), Condescend, Stare, Soothe, Pickup, Joke, Chat, Startle, Abuse, Cry, Scold, Ignore (Yukino, Reiji), Plead, Lie, Cringe, Threaten (Reiji)
+    Scared: Invite (MC), Sing (MC), Bully, Startle
+
+Forceful, Haughty (Female): Salome
+
+    Happy: Sing (MC), Pontificate, Brag, Pickup, Joke
+    Eager: Stare, Seduce, Threaten (Ayase)
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC), Bribe, Sarcasm, Dance, Stare, Chat, Startle, Abuse, Horrify, Sing (Elly), Scold
+    Scared: Bully
+
+Timid, Snappish (Male): Toufei
+
+    Happy: Bribe
+    Eager: Sarcasm, Dance, Plead
+    Angry: Persuade (MC), Taunt (MC, Mark), Sing (MC), Pontificate, Stare, Brag, Lie, Cringe, Ignore (Reiji), Threaten (Reiji) Scream
+    Scared: Invite (MC), Condescend, Flatter, Prestidigitate
+
+Wise, Joyful, Forceful (Male): Polisun, Jinn, Barbatos
+
+    Happy: Sing (MC)
+    Eager: Persuade (MC), Brag
+    Angry: Persuade (MC, Yukino), Taunt (MC), Sing (Elly), Dance, Invite (Elly), Abuse, Seduce, Threaten, Bully, Scold, Ignore
+    Scared: Invite (MC), Cry
+
+Wise, Gloomy, Snappish (Male): Berith, Fafnir
+
+    Happy: Pontificate, Dance
+    Eager: Condescend, Sarcasm
+    Angry: Persuade (MC), Taunt (MC), Sing (MC), Bribe, Stare, Brag, Plead, Flatter, Lie
+    Scared: Invite (MC), Taunt (Mark)
+
+Wise, Gloomy, Snappish (Female): Dark Elf
+
+    Happy: Horrify
+    Eager: Sarcasm, Chat, Persuade (Yukino)
+    Angry: Persuade (MC), Taunt (MC), Sing (MC, Elly), Soothe, Invite (Elly), Pickup, Joke, Startle, Seduce, Threaten, Bully, Scold, Ignore
+    Scared: Abuse, Cry
+
+Wise, Gloomy, Haughty (Female): Black Widow, Druj
+
+    Happy: Cringe, Prestidigitate
+    Eager: Stare
+    Angry: Persuade (MC), Taunt (MC), Invite (MC), Bribe, Sarcasm, Dance, Brag, Threaten (Reiji), Scream, Plead, Flatter, Lie, Cringe
+    Scared: Sing (MC), Taunt (Mark), Ignore (Reiji)
+
+Wise, Forceful, Haughty (Male): Principality, Naga, Dominion, Xiuhtecuhtli
+
+    Happy: Pontificate, Stare, Sing (Elly), Soothe, Prestidigitate
+    Eager: Persuade (MC), Stare, Soothe, Threaten (Reiji)
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC, Elly), Bribe, Condescend, Sarcasm, Dance, Brag, Pickup, Joke, Chat, Startle, Abuse, Seduce, Cry, Scold, Ignore (Yukino), Plead, Flatter, Lie, Cringe, Scream
+    Scared: Sing (MC), Condescend, Horrify, Threaten (Ayase), Bully, Ignore (Reiji)
+
+Wise, Forceful, Haughty (Female): Sarashina-hime, Rangda, Throne
+
+    Happy: Pontificate, Sarcasm
+    Eager: Stare, Threaten (Reiji, Ayase)
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC, Elly), Bribe, Condescend, Dance, Stare, Horrify, Sing (Elly), Soothe, Pickup, Joke, Chat, Startle, Abuse, Seduce, Scold, Ignore
+    Scared: Sing (MC), Bully, Threaten (Reiji)
+
+Wise, Snappish, Haughty (Male): Girimehkala
+
+    Happy: Prestidigitate
+    Eager: Condescend
+    Angry: Persuade (MC), Taunt (MC), Invite (MC), Sing (MC), Bribe, Pontificate, Sarcasm, Dance, Stare, Brag, Plead, Flatter, Lie, Cringe, Threaten (Reiji), Scream
+    Scared: Taunt (Mark), Ignore (Reiji)
+
+Wise, Snappish, Haughty (Female): Pairika
+
+    Happy: Sing (MC), Prestidigitate
+    Eager: Sing (Elly), Chat, Persuade (Yukino), Plead
+    Angry: Persuade (MC), Taunt (MC), Invite (MC, Elly), Horrify, Soothe, Pickup, Startle, Bully, Flatter, Lie, Cringe
+    Scared: Joke, Ignore (Reiji)
+
+Foolish, Joyful, Forceful (Male): Pyro Jack
+
+    Happy: Persuade (MC), Flatter, Cringe
+    Eager: Invite (MC), Lie
+    Angry: Taunt (MC), Plead
+    Scared:
+
+Foolish, Joyful, Timid (Male): Ukobach, Angel
+
+    Happy: Persuade (MC, Yukino), Bribe, Dance, Brag, Seduce, Cringe, Prestidigitate
+    Eager: Sing (Elly), Cry, Lie, Threaten (Reiji)
+    Angry: Taunt (Mark), Stare, Pickup, Joke, Chat, Threaten (Yukino), Plead
+    Scared: Taunt (MC), Startle, Horrify, Abuse, Bully, Scold, Flatter, Ignore (Reiji), Scream
+
+Foolish, Joyful, Timid (Female): Hanako
+
+    Happy: Persuade (MC), Sing (MC), Bribe, Pickup, Joke, Lie, Cringe, Prestidigitate
+    Eager: Startle, Ignore (Reiji)
+    Angry: Pontificate, Chat, Plead, Ignore (Reiji), Scream
+    Scared: Taunt (MC), Invite (MC), Flatter, Threaten (Reiji)
+
+Foolish, Gloomy, Timid (Male): Nightmare, Enku, Catoblepas
+
+    Happy: Sing (MC), Sarcasm, Invite (Elly), Pickup, Seduce, Bully
+    Eager: Cry, Ignore (Yukino), Lie, Threaten (Reiji)
+    Angry: Persuade (MC, Yukino), Invite (MC), Brag, Sing (Elly), Soothe, Joke, Chat, Plead, Flatter, Cringe
+    Scared: Taunt (MC), Condescend, Horrify, Startle, Abuse, Cry, Scold, Ignore (Reiji), Threaten (Reiji), Scream
+
+Foolish, Gloomy, Timid (Female): Bukimi
+
+    Happy: Sing (MC), Bribe, Sarcasm, Dance, Stare, Pickup, Chat, Seduce, Bully, Lie, Scream, Prestidigitate
+    Eager: Sarcasm, Ignore (Reiji)
+    Angry: Persuade (MC, Yukino), Pontificate, Sarcasm, Brag, Soothe, Joke, Cry, Plead, Flatter, Cringe, Ignore (Reiji)
+    Scared: Taunt (MC, Mark), Invite (MC), Condescend, Startle, Threaten (Ayase, Reiji), Scold, Ignore (Yukino)
+
+Foolish, Gloomy, Snappish (Male): Poltergeist, Nozuchi
+
+    Happy: Brag, Bribe, Sarcasm, Pickup, Soothe, Invite (Elly), Seduce, Persuade (Yukino)
+    Eager: Bribe, Condescend, Invite (Elly)
+    Angry: Persuade (MC), Taunt (MC, Mark), Invite (MC), Sing (MC, Elly), Dance, Stare, Pontificate, Joke, Chat, Startle, Cry, Threaten (Ayase, Reiji), Bully, Scold, Ignore (Yukino, Reiji)
+    Scared: Horrify, Abuse, Scream
+
+Foolish, Forceful, Snappish (Male): Orthrus, Ubelluris
+
+    Happy: Persuade (MC), Sarcasm, Invite (Elly), Soothe, Seduce, Flatter, Cringe, Scream
+    Eager: Taunt (MC), Pickup, Invite (Elly), Abuse
+    Angry: Taunt (MC, Mark), Persuade (MC, Yukino), Invite (MC), Sing (MC, Elly), Bribe, Pontificate, Condescend, Dance, Stare, Brag, Pickup, Cry, Threaten (Ayase, Reiji), Bully, Scold, Ignore (Yukino, Reiji), Plead, Lie
+    Scared: Invite (MC), Horrify, Prestidigitate
+
+Joyful, Forceful, Haughty (Female): Siren
+
+    Happy: Sing (MC), Pickup, Joke, Soothe
+    Eager: Stare, Brag, Seduce
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC, Elly), Sing (Elly), Sarcasm, Dance, Joke, Chat, Startle, Abuse, Scold, Ignore
+    Scared: Horrify, Bully, Threaten (Reiji), Scream
+
+Joyful, Timid, Snappish (Male): Kobold
+
+    Happy: Bribe, Stare, Persuade (Yukino)
+    Eager: Sarcasm, Stare, Abuse, Cry
+    Angry: Persuade (MC), Taunt (MC), Sing (MC), Stare, Seduce, Threaten, Bully, Ignore
+    Scared: Invite (MC), Cry, Scold
+
+Gloomy, Timid, Snappish (Female): Carrie
+
+    Happy: Persuade (MC), Bribe, Sarcasm, Horrify, Joke, Scream, Prestidigitate
+    Eager: Sarcasm, Dance, Invite (Elly)
+    Angry: Sing (MC, Elly), Pontificate, Stare, Brag, Soothe, Pickup, Chat, Startle, Plead, Flatter, Lie, Cringe, Ignore (Reiji), Threaten (Reiji)
+    Scared: Taunt (MC, Mark), Invite (MC), Condescend, Abuse
+
+Forceful, Snappish, Haughty (Male): Cromm Cruach, Fenrir
+
+    Happy: Prestidigitate
+    Eager: Plead
+    Angry: Taunt (MC), Invite (MC), Stare, Flatter, Cringe
+    Scared:
+
+Wise, Joyful, Forceful, Haughty (Male): Cait Sith, Oberon, Ganesha
+
+    Happy: Sing (MC, Elly), Pontificate, Soothe, Plead, Prestidigitate
+    Eager: Sarcasm, Stare, Brag, Invite (Elly), Ignore (Reiji), Threaten (Reiji)
+    Angry: Persuade (MC, Yukino), Taunt, Invite (MC, Elly), Bribe, Condescend, Sarcasm, Pickup, Joke, Chat, Startle, Abuse, Seduce, Cry, Threaten (Ayase), Ignore (Yukino), Flatter, Lie, Scream
+    Scared: Horrify, Bully, Scold, Ignore (Reiji)
+
+Wise, Joyful, Timid, Snappish (Male): Gremlin
+
+    Happy: Abuse
+    Eager: Plead
+    Angry: Persuade (MC), Taunt (MC), Sing (MC), Bribe, Sarcasm, Stare, Flatter
+    Scared: Invite (MC)
+
+Wise, Gloomy, Forceful, Haughty (Male): Shadow, Adramelech
+
+    Happy: Sing (MC), Stare, Plead, Prestidigitate
+    Eager: Stare, Threaten (Ayase)
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC), Bribe, Chat, Abuse, Plead, Flatter, Lie, Cringe, Threaten (Reiji), Scream
+    Scared: Ignore (Reiji)
+
+Wise, Gloomy, Timid, Snappish (Male): Duergar
+
+    Happy:
+    Eager: Bribe, Sarcasm
+    Angry: Taunt (MC), Invite (MC), Dance, Stare, Plead, Cringe
+    Scared: Condescend
+
+Wise, Gloomy, Snappish, Haughty (Male): Doppelganger
+
+    Happy: Persuade (MC), Scream, Prestidigitate
+    Eager: Condescend, Chat, Persuade (Yukino)
+    Angry: Taunt, Invite, Bribe, Sarcasm, Sing (Elly), Joke, Startle, Seduce, Ignore (Yukino)
+    Scared: Horrify, Ignore (Reiji)
+
+Wise, Gloomy, Snappish, Haughty (Female): Kiyohime, Miyasudokoro
+
+    Happy: Dance, Scold, Prestidigitate
+    Eager: Condescend, Chat, Persuade (Yukino)
+    Angry: Taunt (MC, Mark), Invite (MC), Sing (MC), Bribe, Pontificate, Sarcasm, Stare, Brag, Pickup, Joke, Startle, Bully, Ignore (Yukino), Flatter, Lie, Cringe, Threaten (Reiji)
+    Scared: Abuse, Ignore (Reiji), Scream
+
+Wise, Forceful, Snappish, Haughty (Male): Tengu
+
+    Happy: Horrify, Prestidigitate
+    Eager: Soothe, Plead
+    Angry: Persuade (MC), Taunt (MC), Sing (MC, Elly), Pontificate, Condescend, Sarcasm, Dance, Stare, Invite (Elly), Threaten (Reiji), Scream
+    Scared: Ignore (Reiji)
+
+Foolish, Gloomy, Forceful, Snappish (Male): Wyvern
+
+    Happy: Sarcasm, Soothe, Invite (Elly), Pickup, Seduce, Cringe, Prestidigitate
+    Eager: Cry, Cringe
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC), Sing (MC, Elly), Bribe, Pontificate, Condescend, Dance, Stare, Brag, Horrify, Abuse, Cry, Threaten (Ayase, Reiji), Bully, Scold, Plead, Ignore (Yukino)
+    Scared: Cry, Ignore (Reiji), Scream
+
+Foolish, Gloomy, Timid, Snappish (Male): Legion
+
+    Happy: Prestidigitate
+    Eager: Dance, Cry
+    Angry: Persuade (MC), Taunt (MC), Sing (MC), Stare, Brag, Lie
+    Scared: Invite (MC), Cry
+
+Gloomy, Forceful, Snappish, Haughty (Female): Kuchisake-onna
+
+    Happy: Sarcasm, Pickup, Plead, Scream, Prestidigitate
+    Eager:
+    Angry: Persuade (MC, Yukino), Taunt (MC, Mark), Invite (MC, Elly), Sing (MC, Elly), Bribe, Pontificate, Condescend, Sarcasm, Dance, Stare, Brag, Joke, Chat, Startle, Horrify, Soothe, Bully, Scold, Ignore (Yukino, Reiji), Abuse, Seduce, Cry, Threaten (Ayase, Reiji) Scream, Plead, Flatter, Lie, Cringe
+    Scared: Threaten (Reiji), Prestidigitate
