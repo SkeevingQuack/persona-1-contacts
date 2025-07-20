@@ -1,8 +1,38 @@
 html {
 	background-color: hsl(282, 42%, 24%);
-	color: hsl(0, 0%, 90%)
+	color: hsl(0, 0%, 90%);
+	font-size: 3rem;
 }
 
 body {
-	margin:2em;
+	margin:2rem;
+}
+
+button {}
+
+.partyPicker {
+	margin-bottom: 2rem;
+}
+
+.traitPicker {
+	margin-bottom: 2rem;
+}
+
+.happy {color: hsl(50, 80%, 70%);}
+.eager {color: hsl(30, 80%, 70%);}
+.angry {color: hsl(0, 80%, 70%);}
+.scared {color: hsl(270, 80%, 70%);}
+.nothing {color: hsl(0, 10%, 60%);}
+
+th,
+td {
+	border: 1px solid hsl(0, 60%, 60%);
+}
+
+tbody > tr {
+	background-color: hsl(282, 42%, 20%);
+}
+
+tbody > tr:nth-of-type(even) {
+	background-color: hsl(282, 42%, 30%);
 }
