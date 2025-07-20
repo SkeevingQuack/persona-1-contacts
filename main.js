@@ -247,12 +247,14 @@ function updateResults() {
 		let genderMatch = contact['gender'] == currentGender || contact['gender'] == "IRRELEVANT";
 		if (personalityMatch && genderMatch) {
 			result = contact;
+			console.log("contact found");
 			break;
 		}
 	}
+	console.log("here is the contact" + JSON.stringify(result))
 	
-	let demons = contact['demons'];
-	let emotions = contact['emotions'];
+	let demons = result['demons'];
+	let emotions = result['emotions'];
 
 	demonList.innerText = demons.join(", ");
 }
