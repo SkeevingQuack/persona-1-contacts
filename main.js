@@ -244,10 +244,14 @@ function toggleGender() {
 }
 buttonGender.addEventListener("click", toggleGender);
 
-function updateTraits() {console.log("updateTraits todo")}
+function updateTraits() {
+	if (personality.length === 4) {
+		//TODO
+	}
+}
 
 function toggleWise() {
-	if personality.includes('Wise') {
+	if (personality.includes('Wise')) {
 		personality = personality.filter((trait) => trait != 'Wise');
 		buttonWise.classList.remove("activeButton");
 	} else {
