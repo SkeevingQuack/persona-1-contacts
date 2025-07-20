@@ -281,12 +281,14 @@ function updateResults() {
 			break;
 		}
 	}
+	let demons;
+	let emotions;
 	if (result === undefined) {
-		let demons = [];
-		let emotions = {};
+		demons = [];
+		emotions = {};
 	} else {
-		let demons = result['demons'];
-		let emotions = dictifyEmotions(result['emotions']);
+		demons = result['demons'];
+		emotions = dictifyEmotions(result['emotions']);
 	}
 	demonList.innerText = demons.join(", ");
 
