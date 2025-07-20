@@ -11,6 +11,7 @@ let personality = [];
 const buttonGender = document.querySelector(".buttonGender");
 let currentGender = "FEMALE";
 
+const demonList = document.querySelector(".demonList");
 
 const mcInParty = true;
 const buttonNanjo = document.querySelector(".buttonNanjo");
@@ -237,9 +238,12 @@ function compareContacts(personality, gender, query) {
 
 function updateResults() {
 	let contacts = blob['personalities'];
-
 	contacts = contacts.filter((contact) => compareContacts(personality, gender, contact));
-	return contacts;
+	
+	let demons = contacts['demons'];
+	let emotions = contacts['emotions'];
+
+	demonList.innerText = demons.join(", ");
 }
 
 function toggleGender() {
