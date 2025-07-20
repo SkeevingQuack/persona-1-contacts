@@ -11,6 +11,9 @@ body {
 button {
 	font-size: 1rem;
 	margin-bottom: 0.5rem;
+
+	width: 2.5rem;
+	height: 6rem;
 }
 
 .partyPicker {
@@ -32,12 +35,20 @@ button {
 
 table {
 	border-collapse: collapse;
+}
+
+th {
 	font-size: 1.5rem;
+}
+
+td {
+	font-size: 0.8rem;
 }
 
 th,
 td {
 	border: 1px solid hsl(0, 0%, 30%);
+	padding: 0.5rem;
 }
 
 tbody > tr {

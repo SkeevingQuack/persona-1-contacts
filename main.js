@@ -1,31 +1,64 @@
-const wise = document.querySelector(".wise");
-const foolish = document.querySelector(".foolish");
-const joyful = document.querySelector(".joyful");
-const gloomy = document.querySelector(".gloomy");
-const timid = document.querySelector(".timid");
-const forceful = document.querySelector(".forceful");
-const snappish = document.querySelector(".snappish");
-const haughty = document.querySelector(".haughty");
+const buttonWise = document.querySelector(".buttonWise");
+const buttonFoolish = document.querySelector(".buttonFoolish");
+const buttonJoyful = document.querySelector(".buttonJoyful");
+const buttonGloomy = document.querySelector(".buttonGloomy");
+const buttonTimid = document.querySelector(".buttonTimid");
+const buttonForceful = document.querySelector(".buttonForceful");
+const buttonSnappish = document.querySelector(".buttonSnappish");
+const buttonHaughty = document.querySelector(".buttonHaughty");
+
+const buttonGender = document.querySelector(".buttonGender");
+const currentGender = "FEMALE";
+
+function changeGender() {
+	if (currentGender === "FEMALE") {
+		currentGender = "MALE";
+		buttonGender.innerText = ♂;
+	} else {
+		currentGender = "FEMALE";
+		buttonGender.innerText = ♀;
+	}
+	updateTraits();
+}
 
 
+// const mcInParty = true;
+// const buttonNanjo = document.querySelector(".buttonNanjo");
+// let nanjoInParty = false;
+// const buttonMark = document.querySelector(".buttonMark");
+// let markInParty = false;
+// const buttonYukino = document.querySelector(".buttonYukino");
+// let yukinoInParty = false;
+// const buttonElly = document.querySelector(".buttonElly");
+// let ellyInParty = false;
+// const buttonMaki = document.querySelector(".buttonMaki");
+// let makiInParty = false;
+// const buttonBrown = document.querySelector(".buttonBrown");
+// let brownInParty = false;
+// const buttonAyase = document.querySelector(".buttonAyase");
+// let ayaseInParty = false;
+// const buttonReiji = document.querySelector(".buttonReiji");
+// let reijiInParty = false;
+// let partySize = 1;
 const mcInParty = true;
 const buttonNanjo = document.querySelector(".buttonNanjo");
-let nanjoInParty = false;
+const nanjoInParty = false;
 const buttonMark = document.querySelector(".buttonMark");
-let markInParty = false;
+const markInParty = false;
 const buttonYukino = document.querySelector(".buttonYukino");
-let yukinoInParty = false;
+const yukinoInParty = false;
 const buttonElly = document.querySelector(".buttonElly");
-let ellyInParty = false;
+const ellyInParty = false;
 const buttonMaki = document.querySelector(".buttonMaki");
-let makiInParty = false;
+const makiInParty = false;
 const buttonBrown = document.querySelector(".buttonBrown");
-let brownInParty = false;
+const brownInParty = false;
 const buttonAyase = document.querySelector(".buttonAyase");
-let ayaseInParty = false;
+const ayaseInParty = false;
 const buttonReiji = document.querySelector(".buttonReiji");
-let reijiInParty = false;
-let partySize = 1;
+const reijiInParty = false;
+const partySize = 1;
+
 const memberList = [document.querySelector(".member1"),
 				 document.querySelector(".member2"),
 				 document.querySelector(".member3"),
@@ -114,7 +147,7 @@ function updateMembers() {
 	}
 
 	while (positionCounter < 5) {
-		memberList[positionCounter].innerHTML = '<th></th><td></td><td></td><td></td><td></td>';
+		memberList[positionCounter].innerHTML = '<th> </th><td> </td><td> </td><td> </td><td> </td>';
 		positionCounter += 1;
 	}
 }
@@ -222,6 +255,4 @@ function toggleReiji() {
 	}
 	updateMembers()
 }
-buttonReiji.addEventListener("click", toggleReiji);	
-
-updateMembers();
+buttonReiji.addEventListener("click", toggleReiji);
