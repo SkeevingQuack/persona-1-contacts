@@ -312,6 +312,9 @@ function updateResults() {
 				case 'Scared':
 					node.classList.add('scared');
 					break;
+				}
+			}
+		}
 }
 
 function toggleGender() {
