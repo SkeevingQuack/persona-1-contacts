@@ -26,11 +26,11 @@ let ayaseInParty = false;
 const buttonReiji = document.querySelector(".buttonReiji");
 let reijiInParty = false;
 let partySize = 1;
-const member1 = document.querySelector(".member1");
-const member2 = document.querySelector(".member2");
-const member3 = document.querySelector(".member3");
-const member4 = document.querySelector(".member4");
-const member5 = document.querySelector(".member5");
+const memberList = [document.querySelector(".member1"),
+				 document.querySelector(".member2"),
+				 document.querySelector(".member3"),
+				 document.querySelector(".member4"),
+				 document.querySelector(".member5")];
 
 async function grabBlob() {
 	const request = new Request("./db.json");
@@ -39,11 +39,79 @@ async function grabBlob() {
 
 	return blob;
 }
-
 let blob = grabBlob();
 
 function updateMembers() {
-	console.log(blob["memberHTML"]["MC"]);
+	let positionCounter = 0;
+	if (mcInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['MC'];
+		positionCounter += 1;
+	}
+
+	if (nanjoInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Nanjo'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonNanjo.disabled = true;
+	} else {
+		buttonNanjo.disabled = false;
+	}
+	if (markInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Mark'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonMark.disabled = true;
+	} else {
+		buttonMark.disabled = false;
+	}
+	if (yukinoInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Yukino'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonYukino.disabled = true;
+	} else {
+		buttonYukino.disabled = false;
+	}
+	if (ellyInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Elly'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonElly.disabled = true;
+	} else {
+		buttonElly.disabled = false;
+	}
+	if (makiInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Maki'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonMaki.disabled = true;
+	} else {
+		buttonMaki.disabled = false;
+	}
+	if (brownInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Brown'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonBrown.disabled = true;
+	} else {
+		buttonBrown.disabled = false;
+	}
+	if (ayaseInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Ayase'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonAyase.disabled = true;
+	} else {
+		buttonAyase.disabled = false;
+	}
+	if (reijiInParty) {
+		memberList[positionCounter].innerHTML = blob['memberHTML']['Reiji'];
+		positionCounter += 1;
+	} else if (partySize === 5) {
+		buttonReiji.disabled = true;
+	} else {
+		buttonReiji.disabled = false;
+	}
 }
 
 function toggleNanjo() {
