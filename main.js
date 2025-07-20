@@ -32,12 +32,15 @@ const member3 = document.querySelector(".member3");
 const member4 = document.querySelector(".member4");
 const member5 = document.querySelector(".member5");
 
-let blob;
 async function grabBlob() {
 	const request = new Request("./db.json");
 	const response = await fetch(request);
 	blob = await response.json();
+
+	return blob;
 }
+
+const blob = grabBlob();
 
 function updateMembers() {
 	console.log(blob["memberHTML"]["MC"]);
