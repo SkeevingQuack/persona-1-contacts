@@ -11,7 +11,7 @@ const buttonHaughty = document.querySelector(".buttonHaughty");
 //buttonWise.addEventListener("click", toggleWise);
 
 const buttonGender = document.querySelector(".buttonGender");
-const currentGender = "FEMALE";
+let currentGender = "FEMALE";
 
 function changeGender() {
 	if (currentGender === "FEMALE") {
@@ -25,42 +25,24 @@ function changeGender() {
 }
 
 
-// const mcInParty = true;
-// const buttonNanjo = document.querySelector(".buttonNanjo");
-// let nanjoInParty = false;
-// const buttonMark = document.querySelector(".buttonMark");
-// let markInParty = false;
-// const buttonYukino = document.querySelector(".buttonYukino");
-// let yukinoInParty = false;
-// const buttonElly = document.querySelector(".buttonElly");
-// let ellyInParty = false;
-// const buttonMaki = document.querySelector(".buttonMaki");
-// let makiInParty = false;
-// const buttonBrown = document.querySelector(".buttonBrown");
-// let brownInParty = false;
-// const buttonAyase = document.querySelector(".buttonAyase");
-// let ayaseInParty = false;
-// const buttonReiji = document.querySelector(".buttonReiji");
-// let reijiInParty = false;
-// let partySize = 1;
 const mcInParty = true;
 const buttonNanjo = document.querySelector(".buttonNanjo");
-const nanjoInParty = false;
+let nanjoInParty = false;
 const buttonMark = document.querySelector(".buttonMark");
-const markInParty = false;
+let markInParty = false;
 const buttonYukino = document.querySelector(".buttonYukino");
-const yukinoInParty = false;
+let yukinoInParty = false;
 const buttonElly = document.querySelector(".buttonElly");
-const ellyInParty = false;
+let ellyInParty = false;
 const buttonMaki = document.querySelector(".buttonMaki");
-const makiInParty = false;
+let makiInParty = false;
 const buttonBrown = document.querySelector(".buttonBrown");
-const brownInParty = false;
+let brownInParty = false;
 const buttonAyase = document.querySelector(".buttonAyase");
-const ayaseInParty = false;
+let ayaseInParty = false;
 const buttonReiji = document.querySelector(".buttonReiji");
-const reijiInParty = false;
-const partySize = 1;
+let reijiInParty = false;
+let partySize = 1;
 
 const memberList = [document.querySelector(".member1"),
 				 document.querySelector(".member2"),
